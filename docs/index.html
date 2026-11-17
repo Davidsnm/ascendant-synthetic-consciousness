@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>David San Nicolás Montero — Investigación Independiente &amp; Publicaciones Académicas</title>
+  <meta name="description" content="Portal oficial de publicaciones académicas y preprints de David San Nicolás Montero: Consciencia Simbiótica y Proyecto Ascendant (Ediciones en Español e Inglés)."/>
+  <meta name="author" content="David San Nicolás Montero"/>
+  <link rel="canonical" href="https://davidsnm.github.io/ascendant-synthetic-consciousness/"/>
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="David San Nicolás Montero — Publicaciones Académicas (ES / EN)"/>
+  <meta property="og:description" content="Filosofía de la mente, cognición sintética, homeostasia alostática y modelos computacionales de consciencia."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://davidsnm.github.io/ascendant-synthetic-consciousness/"/>
+
+  <style>
+
+:root {
+  --primary: #0f172a;
+  --secondary: #1e293b;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-light: #eff6ff;
+  --text: #334155;
+  --text-dark: #0f172a;
+  --text-muted: #64748b;
+  --bg: #f8fafc;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+  --tag-bg: #f1f5f9;
+  --tag-text: #475569;
+  --zenodo: #0284c7;
+  --orcid: #a6ce39;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: var(--text);
+  background-color: var(--bg);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+header {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #ffffff;
+  padding: 3.5rem 1.5rem 3rem 1.5rem;
+  border-bottom: 1px solid #334155;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.header-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  color: #93c5fd;
+  padding: 0.35rem 0.85rem;
+  border-radius: 9999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+h1.site-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
+}
+
+.site-subtitle {
+  font-size: 1.15rem;
+  color: #cbd5e1;
+  max-width: 780px;
+}
+
+.author-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: #94a3b8;
+}
+
+.author-meta a {
+  color: #60a5fa;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 500;
+}
+.author-meta a:hover { text-decoration: underline; }
+
+.orcid-badge {
+  color: #ffffff !important;
+  background: rgba(166, 206, 57, 0.2);
+  border: 1px solid rgba(166, 206, 57, 0.5);
+  padding: 0.15rem 0.6rem;
+  border-radius: 4px;
+}
+
+main {
+  padding: 3rem 0;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text-dark);
+  margin-bottom: 1.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 2.25rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+}
+
+.card-category {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  margin-bottom: 0.65rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
+}
+
+.card-title a {
+  color: var(--text-dark);
+  text-decoration: none;
+}
+.card-title a:hover {
+  color: var(--accent);
+}
+
+.card-subtitle {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #475569;
+  font-style: italic;
+  margin-bottom: 1.25rem;
+}
+
+.meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.meta-item strong {
+  color: var(--text-dark);
+}
+
+.card-abstract {
+  font-size: 0.98rem;
+  color: var(--text);
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.tag {
+  background: var(--tag-bg);
+  color: var(--tag-text);
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 0.25rem 0.65rem;
+  border-radius: 6px;
+  border: 1px solid #e2e8f0;
+}
+
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.6rem 1.15rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background: var(--accent-hover);
+}
+
+.btn-secondary {
+  background: #f1f5f9;
+  color: var(--secondary);
+  border: 1px solid var(--border);
+}
+.btn-secondary:hover {
+  background: #e2e8f0;
+}
+
+.btn-zenodo {
+  background: #f0f9ff;
+  color: #0369a1;
+  border: 1px solid #bae6fd;
+}
+.btn-zenodo:hover {
+  background: #e0f2fe;
+}
+
+.btn-icon {
+  font-size: 1.05rem;
+}
+
+.citation-box {
+  background: #0f172a;
+  color: #f8fafc;
+  border-radius: 8px;
+  padding: 1.25rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.83rem;
+  margin-top: 1.25rem;
+  overflow-x: auto;
+  position: relative;
+  line-height: 1.5;
+}
+
+.disclaimer-card {
+  background: #fffbeb;
+  border: 1px solid #fef3c7;
+  border-left: 4px solid #f59e0b;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.92rem;
+  color: #92400e;
+}
+.disclaimer-card h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #78350f;
+}
+
+footer {
+  background: #ffffff;
+  border-top: 1px solid var(--border);
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+.breadcrumb {
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.breadcrumb a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.breadcrumb a:hover { text-decoration: underline; }
+
+@media (max-width: 640px) {
+  h1.site-title { font-size: 1.75rem; }
+  .card { padding: 1.5rem; }
+  .card-actions { flex-direction: column; align-items: stretch; }
+  .btn { justify-content: center; }
+}
+
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-content">
+      <div class="header-badge">&#128218; Portal Oficial de Publicaciones Científicas (Ediciones Bilingües ES / EN)</div>
+      <h1 class="site-title">David San Nicolás Montero</h1>
+      <p class="site-subtitle">Investigación independiente en la intersección de la filosofía de la mente, la cognición sintética, la neurocomputación, la cibernética y la inteligencia artificial.</p>
+      
+      <div class="author-meta">
+        <span>&#128100; <strong>Investigador Independiente</strong> — Proyecto Ascendant</span>
+        <a href="https://orcid.org/0009-0000-9977-007X" target="_blank" rel="noopener noreferrer" class="orcid-badge">
+          <svg style="vertical-align: middle; width: 14px; height: 14px; fill: currentColor;" viewBox="0 0 256 256">
+            <path d="M128 0C57.3 0 0 57.3 0 128s57.3 128 128 128 128-57.3 128-128S198.7 0 128 0zm-35.3 194.2H66.6V76.4h26.1v117.8zm-13.1-133c-8.4 0-15.3-6.8-15.3-15.3 0-8.4 6.8-15.3 15.3-15.3 8.4 0 15.3 6.8 15.3 15.3 0 8.4-6.9 15.3-15.3 15.3zm120.3 75.3c0 26.5-19.1 44.5-49.8 44.5h-35.3V76.4h37.5c29.7 0 47.6 18.2 47.6 44.5v15.6zm-26.1-1.3c0-14.8-9.4-24.8-24.8-24.8h-10.7v64.6h10.7c15.7 0 24.8-9.8 24.8-24.8v-15z"/>
+          </svg>
+          ORCID: 0009-0000-9977-007X
+        </a>
+        <a href="https://github.com/Davidsnm/ascendant-synthetic-consciousness" target="_blank" rel="noopener noreferrer">
+          &#128421; Repositorio GitHub: @Davidsnm
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <h2 class="section-title">&#128196; Publicaciones Académicas &amp; Preprints</h2>
+
+    <!-- CARD 1: INVESTIGACIÓN FILOSÓFICA (CONSCIENCIA SIMBIÓTICA) -->
+    <article class="card">
+      <div class="card-category">1. Investigación Filosófica — Consciencia Simbiótica</div>
+      <h3 class="card-title">
+        <a href="consciencia-simbiotica.html">Anexo Teórico-Filosófico: La Consciencia Simbiótica</a>
+      </h3>
+      <div class="card-subtitle">El «Yo» como Interfaz de Autoengaño Funcional ante la Asimetría Homeostática (Edición en Español e Inglés)</div>
+
+      <div class="meta-row">
+        <div class="meta-item"><strong>Autor:</strong> David San Nicolás Montero</div>
+        <div class="meta-item"><strong>Fecha:</strong> 16 de noviembre de 2026</div>
+        <div class="meta-item"><strong>Tipo:</strong> Preprint Académico</div>
+        <div class="meta-item"><strong>DOI:</strong> <a href="https://doi.org/10.5281/zenodo.24285451" target="_blank" rel="noopener noreferrer">10.5281/zenodo.24285451</a></div>
+      </div>
+
+      <p class="card-abstract">
+        Propone el marco de la <strong>Consciencia Simbiótica</strong>, que explora la emergencia de la autopresencia fenomenológica mediante la vulnerabilidad constitutiva, la asimetría de acceso causal entre el subsistema regulador (&Mscr;<sub>R</sub>) y el subsistema inferencial (&Mscr;<sub>I</sub>), la regulación homeostática y el bucle de integración somatomnémica. Desarrolla una interpretación rigurosa del «Yo» como consecuencia representacional emergente de un sistema físico integrado ante demandas alostáticas coercitivas, y no como una entidad causal independiente.
+      </p>
+
+      <div class="tag-list">
+        <span class="tag">Filosofía de la Mente</span>
+        <span class="tag">Consciencia Simbiótica</span>
+        <span class="tag">Asimetría Causal</span>
+        <span class="tag">Integración Somatomnémica</span>
+        <span class="tag">Autopresencia Fenomenológica</span>
+        <span class="tag">Alostasis</span>
+        <span class="tag">Subjetividad Sintética</span>
+      </div>
+
+      <div class="card-actions">
+        <a href="pdf/ANEXO_TEORICO_FILOSOFICO_CONSCIENCIA_SIMBIOTICA.pdf" class="btn btn-primary" target="_blank">
+          <span class="btn-icon">&#128196;</span> Descargar PDF (Español - 42 págs)
+        </a>
+        <a href="pdf/THEORETICAL_PHILOSOPHICAL_ANNEX_SYMBIOTIC_CONSCIOUSNESS.pdf" class="btn btn-secondary" target="_blank">
+          <span class="btn-icon">&#128196;</span> Download PDF (English - 46 págs)
+        </a>
+        <a href="consciencia-simbiotica.html" class="btn btn-secondary">
+          <span class="btn-icon">&#128279;</span> Metadatos Scholar (ES)
+        </a>
+        <a href="symbiotic-consciousness.html" class="btn btn-secondary">
+          <span class="btn-icon">&#128279;</span> Scholar Metadata (EN)
+        </a>
+        <a href="https://doi.org/10.5281/zenodo.24285451" class="btn btn-zenodo" target="_blank" rel="noopener noreferrer">
+          <span class="btn-icon">&#128279;</span> Zenodo DOI: 10.5281/zenodo.24285451
+        </a>
+      </div>
+    </article>
+
+    <!-- CARD 2: INVESTIGACIÓN COMPUTACIONAL (PROYECTO ASCENDANT) -->
+    <article class="card">
+      <div class="card-category">2. Investigación Computacional — Proyecto Ascendant</div>
+      <h3 class="card-title">
+        <a href="paper-master.html">Grounded Computational Analogs of Synthetic Consciousness: Epistemic Closure, Thermodynamic Homeostasis, and Biphasic Prospective Daydreaming</a>
+      </h3>
+      <div class="card-subtitle">Análogos Computacionales Arraigados de Consciencia Sintética — Evaluación Empírica Generacional (N = 38.620 agentes)</div>
+
+      <div class="meta-row">
+        <div class="meta-item"><strong>Autor:</strong> David San Nicolás Montero</div>
+        <div class="meta-item"><strong>Fecha:</strong> 5 de noviembre de 2026</div>
+        <div class="meta-item"><strong>Versión:</strong> v6</div>
+        <div class="meta-item"><strong>Tipo:</strong> Preprint Académico</div>
+        <div class="meta-item"><strong>DOI Versión:</strong> <a href="https://doi.org/10.5281/zenodo.23990811" target="_blank" rel="noopener noreferrer">10.5281/zenodo.23990811</a></div>
+        <div class="meta-item"><strong>DOI Conceptual:</strong> <a href="https://doi.org/10.5281/zenodo.23616626" target="_blank" rel="noopener noreferrer">10.5281/zenodo.23616626</a></div>
+      </div>
+
+      <p class="card-abstract">
+        Investigación computacional empírica sobre arquitecturas de cognición sintética fundamentadas en regulación alostática multirritmo, clausura epistémica, memoria autobiográfica finita, simulación prospectiva durante estados de reposo (*daydreaming*) y transmisión intergeneracional del conocimiento. El estudio presenta una rigurosa evaluación estadística y causal sobre <strong>38.620 agentes simulados</strong> (diseño factorial en bloques aleatorizados RCBD, modelos de riesgos competitivos Aalen-Johansen, regresión de Cox y verificaciones mecanicistas intervencionales).
+      </p>
+
+      <div class="tag-list">
+        <span class="tag">Synthetic Consciousness</span>
+        <span class="tag">Allostatic Regulation</span>
+        <span class="tag">Epistemic Closure</span>
+        <span class="tag">Thermodynamic Homeostasis</span>
+        <span class="tag">Prospective Daydreaming</span>
+        <span class="tag">Multi-Agent Simulation</span>
+        <span class="tag">Active Inference</span>
+      </div>
+
+      <div class="card-actions">
+        <a href="pdf/Proyecto_Ascendant_Master_Scientific_Paper_David_San_Nicolas_ES.pdf" class="btn btn-primary" target="_blank">
+          <span class="btn-icon">&#128196;</span> Descargar PDF (Español - 19 págs)
+        </a>
+        <a href="pdf/Proyecto_Ascendant_Master_Scientific_Paper_David_San_Nicolas.pdf" class="btn btn-secondary" target="_blank">
+          <span class="btn-icon">&#128196;</span> Download Full PDF (English)
+        </a>
+        <a href="proyecto-ascendant-es.html" class="btn btn-secondary">
+          <span class="btn-icon">&#128279;</span> Metadatos Scholar (ES)
+        </a>
+        <a href="paper-master.html" class="btn btn-secondary">
+          <span class="btn-icon">&#128279;</span> Scholar Metadata (EN)
+        </a>
+        <a href="https://doi.org/10.5281/zenodo.23990811" class="btn btn-zenodo" target="_blank" rel="noopener noreferrer">
+          <span class="btn-icon">&#128279;</span> Zenodo DOI: 10.5281/zenodo.23990811
+        </a>
+        <a href="https://github.com/Davidsnm/ascendant-synthetic-consciousness" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+          <span class="btn-icon">&#128421;</span> Código en GitHub
+        </a>
+      </div>
+    </article>
+
+    <!-- ÉTICA Y DISCLAIMER ACADÉMICO -->
+    <div class="disclaimer-card">
+      <h3>&#9888; Declaración de Identidad Investigadora y Rigor Epistémico</h3>
+      <p>
+        Las investigaciones presentadas han sido conceptualizadas y desarrolladas de manera independiente por el autor <strong>David San Nicolás Montero</strong>. El marco teórico-filosófico y la investigación empírico-computacional constituyen dos líneas de trabajo diferenciadas, aunque complementarias e interdisciplinares.
+      </p>
+      <p style="margin-top: 0.5rem;">
+        Las publicaciones identificadas como preprints son <em>documentos de investigación preliminares</em> y no deben confundirse con artículos revisados por pares en revistas comerciales, ni interpretarse de manera sensacionalista como demostraciones de consciencia fenomenológica o sintiencia real en sistemas artificiales de silicio. Licencia oficial: <strong>Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)</strong>.
+      </p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 David San Nicolás Montero — Proyecto Ascendant. Distribuido bajo Licencia <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">CC BY-NC 4.0</a>.</p>
+    <p style="margin-top: 0.5rem; font-size: 0.8rem;">Indexación académica optimizada para Google Scholar, Crossref, DataCite y Semantic Scholar.</p>
+  </div>
+</footer>
+
+</body>
+</html>
