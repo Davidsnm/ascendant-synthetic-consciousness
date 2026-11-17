@@ -1,0 +1,2850 @@
+{
+  "author": "David San Nicolás Montero",
+  "definitive_doi_v4": "10.5281/zenodo.23990811",
+  "concept_doi": "10.5281/zenodo.23616626",
+  "descriptive_all_34560": {
+    "Melancólico Empático": {
+      "N_agents": 7248,
+      "N_unique_seeds": 221,
+      "theta_oxi_mean": 0.862,
+      "outside_exposure_ratio": 0.2805,
+      "mean_age": 1398.31,
+      "mean_bite_wear_cycles": 49.08,
+      "rates_3cat_pct": {
+        "SENESCENCIA_NATURAL": 71.32,
+        "INANICION": 10.87,
+        "DEPREDADOR": 17.81
+      },
+      "cluster_se_3cat_pct": {
+        "SENESCENCIA_NATURAL": 0.86,
+        "INANICION": 0.61,
+        "DEPREDADOR": 0.6
+      },
+      "rates_4cat_pct": {
+        "SENESCENCIA_INTACTA": 37.16,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 34.16,
+        "INANICION": 10.87,
+        "DEPREDADOR": 17.81
+      },
+      "cluster_se_4cat_pct": {
+        "SENESCENCIA_INTACTA": 0.89,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 1.07,
+        "INANICION": 0.61,
+        "DEPREDADOR": 0.6
+      }
+    },
+    "Optimista Sereno": {
+      "N_agents": 7080,
+      "N_unique_seeds": 219,
+      "theta_oxi_mean": 0.741,
+      "outside_exposure_ratio": 0.2794,
+      "mean_age": 1461.63,
+      "mean_bite_wear_cycles": 50.03,
+      "rates_3cat_pct": {
+        "SENESCENCIA_NATURAL": 73.02,
+        "INANICION": 10.41,
+        "DEPREDADOR": 16.57
+      },
+      "cluster_se_3cat_pct": {
+        "SENESCENCIA_NATURAL": 0.77,
+        "INANICION": 0.54,
+        "DEPREDADOR": 0.58
+      },
+      "rates_4cat_pct": {
+        "SENESCENCIA_INTACTA": 41.13,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 31.89,
+        "INANICION": 10.41,
+        "DEPREDADOR": 16.57
+      },
+      "cluster_se_4cat_pct": {
+        "SENESCENCIA_INTACTA": 0.97,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 1.03,
+        "INANICION": 0.54,
+        "DEPREDADOR": 0.58
+      }
+    },
+    "Entusiasta Dopaminérgico": {
+      "N_agents": 6720,
+      "N_unique_seeds": 213,
+      "theta_oxi_mean": 0.601,
+      "outside_exposure_ratio": 0.2733,
+      "mean_age": 1507.92,
+      "mean_bite_wear_cycles": 50.49,
+      "rates_3cat_pct": {
+        "SENESCENCIA_NATURAL": 73.78,
+        "INANICION": 9.57,
+        "DEPREDADOR": 16.65
+      },
+      "cluster_se_3cat_pct": {
+        "SENESCENCIA_NATURAL": 0.73,
+        "INANICION": 0.48,
+        "DEPREDADOR": 0.55
+      },
+      "rates_4cat_pct": {
+        "SENESCENCIA_INTACTA": 43.5,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 30.28,
+        "INANICION": 9.57,
+        "DEPREDADOR": 16.65
+      },
+      "cluster_se_4cat_pct": {
+        "SENESCENCIA_INTACTA": 1.01,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 0.98,
+        "INANICION": 0.48,
+        "DEPREDADOR": 0.55
+      }
+    },
+    "Colérico Reactivo": {
+      "N_agents": 6672,
+      "N_unique_seeds": 197,
+      "theta_oxi_mean": 0.401,
+      "outside_exposure_ratio": 0.2642,
+      "mean_age": 1432.54,
+      "mean_bite_wear_cycles": 46.82,
+      "rates_3cat_pct": {
+        "SENESCENCIA_NATURAL": 76.24,
+        "INANICION": 9.05,
+        "DEPREDADOR": 14.7
+      },
+      "cluster_se_3cat_pct": {
+        "SENESCENCIA_NATURAL": 0.79,
+        "INANICION": 0.5,
+        "DEPREDADOR": 0.65
+      },
+      "rates_4cat_pct": {
+        "SENESCENCIA_INTACTA": 48.31,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 27.94,
+        "INANICION": 9.05,
+        "DEPREDADOR": 14.7
+      },
+      "cluster_se_4cat_pct": {
+        "SENESCENCIA_INTACTA": 0.92,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 0.93,
+        "INANICION": 0.5,
+        "DEPREDADOR": 0.65
+      }
+    },
+    "Estoico Desapegado": {
+      "N_agents": 6840,
+      "N_unique_seeds": 210,
+      "theta_oxi_mean": 0.219,
+      "outside_exposure_ratio": 0.2435,
+      "mean_age": 1419.88,
+      "mean_bite_wear_cycles": 42.39,
+      "rates_3cat_pct": {
+        "SENESCENCIA_NATURAL": 78.14,
+        "INANICION": 8.71,
+        "DEPREDADOR": 13.14
+      },
+      "cluster_se_3cat_pct": {
+        "SENESCENCIA_NATURAL": 0.73,
+        "INANICION": 0.52,
+        "DEPREDADOR": 0.53
+      },
+      "rates_4cat_pct": {
+        "SENESCENCIA_INTACTA": 55.86,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 22.28,
+        "INANICION": 8.71,
+        "DEPREDADOR": 13.14
+      },
+      "cluster_se_4cat_pct": {
+        "SENESCENCIA_INTACTA": 0.87,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 0.98,
+        "INANICION": 0.52,
+        "DEPREDADOR": 0.53
+      }
+    }
+  },
+  "descriptive_offspring_25920": {
+    "Melancólico Empático": {
+      "N_agents": 5328,
+      "N_unique_seeds": 182,
+      "theta_oxi_mean": 0.862,
+      "outside_exposure_ratio": 0.267,
+      "mean_age": 1638.83,
+      "mean_bite_wear_cycles": 54.19,
+      "rates_3cat_pct": {
+        "SENESCENCIA_NATURAL": 66.54,
+        "INANICION": 13.8,
+        "DEPREDADOR": 19.67
+      },
+      "cluster_se_3cat_pct": {
+        "SENESCENCIA_NATURAL": 0.85,
+        "INANICION": 0.69,
+        "DEPREDADOR": 0.63
+      },
+      "rates_4cat_pct": {
+        "SENESCENCIA_INTACTA": 37.26,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 29.28,
+        "INANICION": 13.8,
+        "DEPREDADOR": 19.67
+      },
+      "cluster_se_4cat_pct": {
+        "SENESCENCIA_INTACTA": 0.92,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 1.03,
+        "INANICION": 0.69,
+        "DEPREDADOR": 0.63
+      }
+    },
+    "Optimista Sereno": {
+      "N_agents": 5520,
+      "N_unique_seeds": 188,
+      "theta_oxi_mean": 0.742,
+      "outside_exposure_ratio": 0.2676,
+      "mean_age": 1673.12,
+      "mean_bite_wear_cycles": 55.07,
+      "rates_3cat_pct": {
+        "SENESCENCIA_NATURAL": 70.56,
+        "INANICION": 11.87,
+        "DEPREDADOR": 17.57
+      },
+      "cluster_se_3cat_pct": {
+        "SENESCENCIA_NATURAL": 0.77,
+        "INANICION": 0.56,
+        "DEPREDADOR": 0.61
+      },
+      "rates_4cat_pct": {
+        "SENESCENCIA_INTACTA": 42.23,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 28.33,
+        "INANICION": 11.87,
+        "DEPREDADOR": 17.57
+      },
+      "cluster_se_4cat_pct": {
+        "SENESCENCIA_INTACTA": 1.08,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 1.09,
+        "INANICION": 0.56,
+        "DEPREDADOR": 0.61
+      }
+    },
+    "Entusiasta Dopaminérgico": {
+      "N_agents": 5448,
+      "N_unique_seeds": 186,
+      "theta_oxi_mean": 0.602,
+      "outside_exposure_ratio": 0.2626,
+      "mean_age": 1692.54,
+      "mean_bite_wear_cycles": 55.06,
+      "rates_3cat_pct": {
+        "SENESCENCIA_NATURAL": 71.82,
+        "INANICION": 10.61,
+        "DEPREDADOR": 17.57
+      },
+      "cluster_se_3cat_pct": {
+        "SENESCENCIA_NATURAL": 0.72,
+        "INANICION": 0.5,
+        "DEPREDADOR": 0.6
+      },
+      "rates_4cat_pct": {
+        "SENESCENCIA_INTACTA": 44.35,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 27.48,
+        "INANICION": 10.61,
+        "DEPREDADOR": 17.57
+      },
+      "cluster_se_4cat_pct": {
+        "SENESCENCIA_INTACTA": 1.05,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 0.96,
+        "INANICION": 0.5,
+        "DEPREDADOR": 0.6
+      }
+    },
+    "Colérico Reactivo": {
+      "N_agents": 4824,
+      "N_unique_seeds": 161,
+      "theta_oxi_mean": 0.401,
+      "outside_exposure_ratio": 0.2503,
+      "mean_age": 1704.6,
+      "mean_bite_wear_cycles": 53.34,
+      "rates_3cat_pct": {
+        "SENESCENCIA_NATURAL": 72.8,
+        "INANICION": 10.95,
+        "DEPREDADOR": 16.25
+      },
+      "cluster_se_3cat_pct": {
+        "SENESCENCIA_NATURAL": 0.74,
+        "INANICION": 0.54,
+        "DEPREDADOR": 0.59
+      },
+      "rates_4cat_pct": {
+        "SENESCENCIA_INTACTA": 48.88,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 23.92,
+        "INANICION": 10.95,
+        "DEPREDADOR": 16.25
+      },
+      "cluster_se_4cat_pct": {
+        "SENESCENCIA_INTACTA": 0.91,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 0.9,
+        "INANICION": 0.54,
+        "DEPREDADOR": 0.59
+      }
+    },
+    "Estoico Desapegado": {
+      "N_agents": 4800,
+      "N_unique_seeds": 161,
+      "theta_oxi_mean": 0.22,
+      "outside_exposure_ratio": 0.2306,
+      "mean_age": 1706.42,
+      "mean_bite_wear_cycles": 48.05,
+      "rates_3cat_pct": {
+        "SENESCENCIA_NATURAL": 73.62,
+        "INANICION": 11.19,
+        "DEPREDADOR": 15.19
+      },
+      "cluster_se_3cat_pct": {
+        "SENESCENCIA_NATURAL": 0.71,
+        "INANICION": 0.55,
+        "DEPREDADOR": 0.61
+      },
+      "rates_4cat_pct": {
+        "SENESCENCIA_INTACTA": 56.6,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 17.02,
+        "INANICION": 11.19,
+        "DEPREDADOR": 15.19
+      },
+      "cluster_se_4cat_pct": {
+        "SENESCENCIA_INTACTA": 0.86,
+        "SENESCENCIA_DESGASTE_MORDISCOS": 0.84,
+        "INANICION": 0.55,
+        "DEPREDADOR": 0.61
+      }
+    }
+  },
+  "temperament_block_tests": {
+    "all_34560_3cat_8df": {
+      "df_block": 8,
+      "lr_chi2": 106.84,
+      "lr_p_value": 1.6988362291982994e-19,
+      "wald_naive_chi2": 105.84,
+      "wald_naive_p_value": 2.726547018062135e-19,
+      "wald_cluster_chi2": 71.02,
+      "wald_cluster_p_value": 3.0803897892215202e-12,
+      "full_model_lr_chi2": 2580.36,
+      "full_model_mcfadden_r2": 0.0506,
+      "temperament_delta_r2": 0.0021
+    },
+    "offspring_25920_3cat_8df": {
+      "df_block": 8,
+      "lr_chi2": 91.32,
+      "lr_p_value": 2.50903487810511e-16,
+      "wald_naive_chi2": 91.62,
+      "wald_naive_p_value": 2.184416391118958e-16,
+      "wald_cluster_chi2": 67.75,
+      "wald_cluster_p_value": 1.3761426285659537e-11,
+      "full_model_lr_chi2": 2017.12,
+      "full_model_mcfadden_r2": 0.0488,
+      "temperament_delta_r2": 0.0022
+    },
+    "offspring_25920_4cat_12df": {
+      "df_block": 12,
+      "lr_chi2": 604.24,
+      "lr_p_value": 1.3201067659344513e-121,
+      "wald_naive_chi2": 578.91,
+      "wald_naive_p_value": 3.3697167778844496e-116,
+      "wald_cluster_chi2": 439.1,
+      "wald_cluster_p_value": 1.9497718821972398e-86,
+      "full_model_lr_chi2": 5594.68,
+      "full_model_mcfadden_r2": 0.0856,
+      "temperament_delta_r2": 0.0092
+    }
+  },
+  "mnlogit_34560_cluster_robust": {
+    "INANICION_vs_SENESCENCIA": [
+      {
+        "variable": "Intercepto",
+        "beta": -2.9668,
+        "se_naive": 0.0695,
+        "z_naive": -42.71,
+        "p_naive": 0.0,
+        "se_cluster": 0.0941,
+        "z_cluster": -31.52,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.35,
+        "RRR": 0.0515,
+        "RRR_ci95_cluster": [
+          0.0428,
+          0.0619
+        ]
+      },
+      {
+        "variable": "Temp_Melancolico (vs Estoico)",
+        "beta": 0.3224,
+        "se_naive": 0.0592,
+        "z_naive": 5.45,
+        "p_naive": 5.074931030968344e-08,
+        "se_cluster": 0.0768,
+        "z_cluster": 4.19,
+        "p_cluster": 2.7305740170735504e-05,
+        "deff_se_ratio": 1.3,
+        "RRR": 1.3804,
+        "RRR_ci95_cluster": [
+          1.1874,
+          1.6048
+        ]
+      },
+      {
+        "variable": "Temp_Optimista (vs Estoico)",
+        "beta": 0.2184,
+        "se_naive": 0.0599,
+        "z_naive": 3.64,
+        "p_naive": 0.0002686081389287054,
+        "se_cluster": 0.076,
+        "z_cluster": 2.87,
+        "p_cluster": 0.004042885352502523,
+        "deff_se_ratio": 1.27,
+        "RRR": 1.244,
+        "RRR_ci95_cluster": [
+          1.072,
+          1.4437
+        ]
+      },
+      {
+        "variable": "Temp_Entusiasta (vs Estoico)",
+        "beta": 0.088,
+        "se_naive": 0.0617,
+        "z_naive": 1.43,
+        "p_naive": 0.15366407199639465,
+        "se_cluster": 0.078,
+        "z_cluster": 1.13,
+        "p_cluster": 0.2591295625890737,
+        "deff_se_ratio": 1.26,
+        "RRR": 1.092,
+        "RRR_ci95_cluster": [
+          0.9372,
+          1.2724
+        ]
+      },
+      {
+        "variable": "Temp_Colerico (vs Estoico)",
+        "beta": 0.0662,
+        "se_naive": 0.0624,
+        "z_naive": 1.06,
+        "p_naive": 0.28933940790333335,
+        "se_cluster": 0.0773,
+        "z_cluster": 0.86,
+        "p_cluster": 0.3918798073709584,
+        "deff_se_ratio": 1.24,
+        "RRR": 1.0684,
+        "RRR_ci95_cluster": [
+          0.9183,
+          1.2431
+        ]
+      },
+      {
+        "variable": "Presion_K5 (vs K3)",
+        "beta": 0.7424,
+        "se_naive": 0.0385,
+        "z_naive": 19.28,
+        "p_naive": 0.0,
+        "se_cluster": 0.0549,
+        "z_cluster": 13.52,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.43,
+        "RRR": 2.101,
+        "RRR_ci95_cluster": [
+          1.8867,
+          2.3397
+        ]
+      },
+      {
+        "variable": "Memoria_M140 (vs M100)",
+        "beta": 0.1125,
+        "se_naive": 0.0468,
+        "z_naive": 2.4,
+        "p_naive": 0.016224991847041403,
+        "se_cluster": 0.0524,
+        "z_cluster": 2.15,
+        "p_cluster": 0.03165287095219238,
+        "deff_se_ratio": 1.12,
+        "RRR": 1.1191,
+        "RRR_ci95_cluster": [
+          1.0099,
+          1.24
+        ]
+      },
+      {
+        "variable": "Memoria_M200 (vs M100)",
+        "beta": 0.1976,
+        "se_naive": 0.0461,
+        "z_naive": 4.28,
+        "p_naive": 1.8477064593902526e-05,
+        "se_cluster": 0.0513,
+        "z_cluster": 3.85,
+        "p_cluster": 0.00011597092114823404,
+        "deff_se_ratio": 1.11,
+        "RRR": 1.2185,
+        "RRR_ci95_cluster": [
+          1.102,
+          1.3473
+        ]
+      },
+      {
+        "variable": "Cultura_T+",
+        "beta": -0.0441,
+        "se_naive": 0.0376,
+        "z_naive": -1.17,
+        "p_naive": 0.24095741740034682,
+        "se_cluster": 0.0312,
+        "z_cluster": -1.41,
+        "p_cluster": 0.15748572589039744,
+        "deff_se_ratio": 0.83,
+        "RRR": 0.9569,
+        "RRR_ci95_cluster": [
+          0.9001,
+          1.0172
+        ]
+      },
+      {
+        "variable": "Despensa_P+",
+        "beta": -0.9665,
+        "se_naive": 0.0397,
+        "z_naive": -24.34,
+        "p_naive": 0.0,
+        "se_cluster": 0.0606,
+        "z_cluster": -15.95,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.53,
+        "RRR": 0.3804,
+        "RRR_ci95_cluster": [
+          0.3378,
+          0.4284
+        ]
+      },
+      {
+        "variable": "Generacion_Lineal",
+        "beta": 0.4293,
+        "se_naive": 0.0176,
+        "z_naive": 24.39,
+        "p_naive": 0.0,
+        "se_cluster": 0.0271,
+        "z_cluster": 15.85,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.54,
+        "RRR": 1.5361,
+        "RRR_ci95_cluster": [
+          1.4567,
+          1.6199
+        ]
+      }
+    ],
+    "DEPREDADOR_vs_SENESCENCIA": [
+      {
+        "variable": "Intercepto",
+        "beta": -2.363,
+        "se_naive": 0.0554,
+        "z_naive": -42.66,
+        "p_naive": 0.0,
+        "se_cluster": 0.0662,
+        "z_cluster": -35.7,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.2,
+        "RRR": 0.0941,
+        "RRR_ci95_cluster": [
+          0.0827,
+          0.1072
+        ]
+      },
+      {
+        "variable": "Temp_Melancolico (vs Estoico)",
+        "beta": 0.4061,
+        "se_naive": 0.0484,
+        "z_naive": 8.38,
+        "p_naive": 0.0,
+        "se_cluster": 0.0577,
+        "z_cluster": 7.04,
+        "p_cluster": 1.8813839375297903e-12,
+        "deff_se_ratio": 1.19,
+        "RRR": 1.501,
+        "RRR_ci95_cluster": [
+          1.3406,
+          1.6806
+        ]
+      },
+      {
+        "variable": "Temp_Optimista (vs Estoico)",
+        "beta": 0.2913,
+        "se_naive": 0.0493,
+        "z_naive": 5.91,
+        "p_naive": 3.340228538206702e-09,
+        "se_cluster": 0.0607,
+        "z_cluster": 4.8,
+        "p_cluster": 1.5848827863429449e-06,
+        "deff_se_ratio": 1.23,
+        "RRR": 1.3381,
+        "RRR_ci95_cluster": [
+          1.1881,
+          1.5071
+        ]
+      },
+      {
+        "variable": "Temp_Entusiasta (vs Estoico)",
+        "beta": 0.2681,
+        "se_naive": 0.0498,
+        "z_naive": 5.38,
+        "p_naive": 7.320597328330791e-08,
+        "se_cluster": 0.0609,
+        "z_cluster": 4.4,
+        "p_cluster": 1.0673497800262055e-05,
+        "deff_se_ratio": 1.22,
+        "RRR": 1.3075,
+        "RRR_ci95_cluster": [
+          1.1604,
+          1.4733
+        ]
+      },
+      {
+        "variable": "Temp_Colerico (vs Estoico)",
+        "beta": 0.1398,
+        "se_naive": 0.051,
+        "z_naive": 2.74,
+        "p_naive": 0.006090851594313218,
+        "se_cluster": 0.0632,
+        "z_cluster": 2.21,
+        "p_cluster": 0.026975133530473983,
+        "deff_se_ratio": 1.24,
+        "RRR": 1.15,
+        "RRR_ci95_cluster": [
+          1.016,
+          1.3016
+        ]
+      },
+      {
+        "variable": "Presion_K5 (vs K3)",
+        "beta": 0.836,
+        "se_naive": 0.0313,
+        "z_naive": 26.72,
+        "p_naive": 0.0,
+        "se_cluster": 0.0399,
+        "z_cluster": 20.94,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.28,
+        "RRR": 2.3071,
+        "RRR_ci95_cluster": [
+          2.1335,
+          2.4949
+        ]
+      },
+      {
+        "variable": "Memoria_M140 (vs M100)",
+        "beta": 0.114,
+        "se_naive": 0.0373,
+        "z_naive": 3.05,
+        "p_naive": 0.0022677247235098896,
+        "se_cluster": 0.0422,
+        "z_cluster": 2.7,
+        "p_cluster": 0.006930261807766458,
+        "deff_se_ratio": 1.13,
+        "RRR": 1.1207,
+        "RRR_ci95_cluster": [
+          1.0317,
+          1.2174
+        ]
+      },
+      {
+        "variable": "Memoria_M200 (vs M100)",
+        "beta": 0.1159,
+        "se_naive": 0.0374,
+        "z_naive": 3.1,
+        "p_naive": 0.0019472739650052695,
+        "se_cluster": 0.0428,
+        "z_cluster": 2.71,
+        "p_cluster": 0.006749865814545952,
+        "deff_se_ratio": 1.14,
+        "RRR": 1.1229,
+        "RRR_ci95_cluster": [
+          1.0326,
+          1.2211
+        ]
+      },
+      {
+        "variable": "Cultura_T+",
+        "beta": -0.0201,
+        "se_naive": 0.0304,
+        "z_naive": -0.66,
+        "p_naive": 0.5086173267503054,
+        "se_cluster": 0.0263,
+        "z_cluster": -0.76,
+        "p_cluster": 0.4461778633536393,
+        "deff_se_ratio": 0.87,
+        "RRR": 0.9801,
+        "RRR_ci95_cluster": [
+          0.9308,
+          1.0321
+        ]
+      },
+      {
+        "variable": "Despensa_P+",
+        "beta": -0.4896,
+        "se_naive": 0.0306,
+        "z_naive": -16.01,
+        "p_naive": 0.0,
+        "se_cluster": 0.038,
+        "z_cluster": -12.9,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.24,
+        "RRR": 0.6129,
+        "RRR_ci95_cluster": [
+          0.5689,
+          0.6602
+        ]
+      },
+      {
+        "variable": "Generacion_Lineal",
+        "beta": 0.1907,
+        "se_naive": 0.0137,
+        "z_naive": 13.89,
+        "p_naive": 0.0,
+        "se_cluster": 0.0176,
+        "z_cluster": 10.82,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.28,
+        "RRR": 1.2101,
+        "RRR_ci95_cluster": [
+          1.169,
+          1.2526
+        ]
+      }
+    ],
+    "CONTRASTE_INANICION_vs_DEPREDADOR": [
+      {
+        "variable": "Intercepto",
+        "beta": -0.6038,
+        "se_naive": 0.0824,
+        "se_cluster": 0.1095,
+        "deff_se_ratio": 1.33,
+        "z_cluster": -5.52,
+        "p_cluster": 3.470001663785638e-08,
+        "RRR": 0.5467
+      },
+      {
+        "variable": "Temp_Melancolico (vs Estoico)",
+        "beta": -0.0837,
+        "se_naive": 0.0698,
+        "se_cluster": 0.0899,
+        "deff_se_ratio": 1.29,
+        "z_cluster": -0.93,
+        "p_cluster": 0.35179865479677996,
+        "RRR": 0.9197
+      },
+      {
+        "variable": "Temp_Optimista (vs Estoico)",
+        "beta": -0.0729,
+        "se_naive": 0.071,
+        "se_cluster": 0.084,
+        "deff_se_ratio": 1.18,
+        "z_cluster": -0.87,
+        "p_cluster": 0.3853730246770015,
+        "RRR": 0.9297
+      },
+      {
+        "variable": "Temp_Entusiasta (vs Estoico)",
+        "beta": -0.1801,
+        "se_naive": 0.0727,
+        "se_cluster": 0.09,
+        "deff_se_ratio": 1.24,
+        "z_cluster": -2.0,
+        "p_cluster": 0.04543475039511202,
+        "RRR": 0.8352
+      },
+      {
+        "variable": "Temp_Colerico (vs Estoico)",
+        "beta": -0.0736,
+        "se_naive": 0.0742,
+        "se_cluster": 0.0911,
+        "deff_se_ratio": 1.23,
+        "z_cluster": -0.81,
+        "p_cluster": 0.41901385967275795,
+        "RRR": 0.929
+      },
+      {
+        "variable": "Presion_K5 (vs K3)",
+        "beta": -0.0936,
+        "se_naive": 0.0457,
+        "se_cluster": 0.0631,
+        "deff_se_ratio": 1.38,
+        "z_cluster": -1.48,
+        "p_cluster": 0.138000809681466,
+        "RRR": 0.9107
+      },
+      {
+        "variable": "Memoria_M140 (vs M100)",
+        "beta": -0.0015,
+        "se_naive": 0.0547,
+        "se_cluster": 0.059,
+        "deff_se_ratio": 1.08,
+        "z_cluster": -0.02,
+        "p_cluster": 0.9803657351555779,
+        "RRR": 0.9986
+      },
+      {
+        "variable": "Memoria_M200 (vs M100)",
+        "beta": 0.0817,
+        "se_naive": 0.0542,
+        "se_cluster": 0.0572,
+        "deff_se_ratio": 1.06,
+        "z_cluster": 1.43,
+        "p_cluster": 0.1529662595008281,
+        "RRR": 1.0851
+      },
+      {
+        "variable": "Cultura_T+",
+        "beta": -0.024,
+        "se_naive": 0.044,
+        "se_cluster": 0.0365,
+        "deff_se_ratio": 0.83,
+        "z_cluster": -0.66,
+        "p_cluster": 0.510166581399981,
+        "RRR": 0.9763
+      },
+      {
+        "variable": "Despensa_P+",
+        "beta": -0.4768,
+        "se_naive": 0.0462,
+        "se_cluster": 0.0643,
+        "deff_se_ratio": 1.39,
+        "z_cluster": -7.42,
+        "p_cluster": 1.199040866595169e-13,
+        "RRR": 0.6207
+      },
+      {
+        "variable": "Generacion_Lineal",
+        "beta": 0.2386,
+        "se_naive": 0.0204,
+        "se_cluster": 0.0293,
+        "deff_se_ratio": 1.43,
+        "z_cluster": 8.15,
+        "p_cluster": 4.440892098500626e-16,
+        "RRR": 1.2694
+      }
+    ]
+  },
+  "mnlogit_offspring_25920_3cat_cluster_robust": {
+    "INANICION_vs_SENESCENCIA": [
+      {
+        "variable": "Intercepto",
+        "beta": -2.1065,
+        "se_naive": 0.0732,
+        "z_naive": -28.77,
+        "p_naive": 0.0,
+        "se_cluster": 0.0885,
+        "z_cluster": -23.8,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.21,
+        "RRR": 0.1217,
+        "RRR_ci95_cluster": [
+          0.1023,
+          0.1447
+        ]
+      },
+      {
+        "variable": "Temp_Melancolico (vs Estoico)",
+        "beta": 0.3387,
+        "se_naive": 0.0632,
+        "z_naive": 5.36,
+        "p_naive": 8.201972079291409e-08,
+        "se_cluster": 0.0744,
+        "z_cluster": 4.55,
+        "p_cluster": 5.375686210395969e-06,
+        "deff_se_ratio": 1.18,
+        "RRR": 1.4031,
+        "RRR_ci95_cluster": [
+          1.2126,
+          1.6235
+        ]
+      },
+      {
+        "variable": "Temp_Optimista (vs Estoico)",
+        "beta": 0.1052,
+        "se_naive": 0.0643,
+        "z_naive": 1.64,
+        "p_naive": 0.10191535358213999,
+        "se_cluster": 0.0719,
+        "z_cluster": 1.46,
+        "p_cluster": 0.14351041172483825,
+        "deff_se_ratio": 1.12,
+        "RRR": 1.111,
+        "RRR_ci95_cluster": [
+          0.9649,
+          1.2792
+        ]
+      },
+      {
+        "variable": "Temp_Entusiasta (vs Estoico)",
+        "beta": -0.0335,
+        "se_naive": 0.0659,
+        "z_naive": -0.51,
+        "p_naive": 0.6110778613608769,
+        "se_cluster": 0.0702,
+        "z_cluster": -0.48,
+        "p_cluster": 0.6330600153587742,
+        "deff_se_ratio": 1.07,
+        "RRR": 0.9671,
+        "RRR_ci95_cluster": [
+          0.8428,
+          1.1096
+        ]
+      },
+      {
+        "variable": "Temp_Colerico (vs Estoico)",
+        "beta": -0.0055,
+        "se_naive": 0.0673,
+        "z_naive": -0.08,
+        "p_naive": 0.9343372222415567,
+        "se_cluster": 0.0755,
+        "z_cluster": -0.07,
+        "p_cluster": 0.9414563534166107,
+        "deff_se_ratio": 1.12,
+        "RRR": 0.9945,
+        "RRR_ci95_cluster": [
+          0.8576,
+          1.1532
+        ]
+      },
+      {
+        "variable": "Presion_K5 (vs K3)",
+        "beta": 0.8143,
+        "se_naive": 0.0412,
+        "z_naive": 19.76,
+        "p_naive": 0.0,
+        "se_cluster": 0.0483,
+        "z_cluster": 16.84,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.17,
+        "RRR": 2.2575,
+        "RRR_ci95_cluster": [
+          2.0534,
+          2.4819
+        ]
+      },
+      {
+        "variable": "Memoria_M140 (vs M100)",
+        "beta": 0.0934,
+        "se_naive": 0.0498,
+        "z_naive": 1.87,
+        "p_naive": 0.060982917593666475,
+        "se_cluster": 0.0571,
+        "z_cluster": 1.63,
+        "p_cluster": 0.10214585193802428,
+        "deff_se_ratio": 1.15,
+        "RRR": 1.0979,
+        "RRR_ci95_cluster": [
+          0.9816,
+          1.2279
+        ]
+      },
+      {
+        "variable": "Memoria_M200 (vs M100)",
+        "beta": 0.1795,
+        "se_naive": 0.0492,
+        "z_naive": 3.65,
+        "p_naive": 0.0002650594334556722,
+        "se_cluster": 0.0552,
+        "z_cluster": 3.25,
+        "p_cluster": 0.001139055800462474,
+        "deff_se_ratio": 1.12,
+        "RRR": 1.1967,
+        "RRR_ci95_cluster": [
+          1.074,
+          1.3334
+        ]
+      },
+      {
+        "variable": "Cultura_T+",
+        "beta": -0.0561,
+        "se_naive": 0.0402,
+        "z_naive": -1.4,
+        "p_naive": 0.16299779715849505,
+        "se_cluster": 0.0352,
+        "z_cluster": -1.59,
+        "p_cluster": 0.11118714337563573,
+        "deff_se_ratio": 0.88,
+        "RRR": 0.9455,
+        "RRR_ci95_cluster": [
+          0.8824,
+          1.013
+        ]
+      },
+      {
+        "variable": "Despensa_P+",
+        "beta": -1.0992,
+        "se_naive": 0.0428,
+        "z_naive": -25.68,
+        "p_naive": 0.0,
+        "se_cluster": 0.0556,
+        "z_cluster": -19.77,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.3,
+        "RRR": 0.3331,
+        "RRR_ci95_cluster": [
+          0.2987,
+          0.3715
+        ]
+      },
+      {
+        "variable": "Gen_2_BETA (vs ALFA)",
+        "beta": 0.0552,
+        "se_naive": 0.0519,
+        "z_naive": 1.06,
+        "p_naive": 0.2879742278547348,
+        "se_cluster": 0.0658,
+        "z_cluster": 0.84,
+        "p_cluster": 0.4014880848101696,
+        "deff_se_ratio": 1.27,
+        "RRR": 1.0567,
+        "RRR_ci95_cluster": [
+          0.9289,
+          1.2021
+        ]
+      },
+      {
+        "variable": "Gen_3_GAMA (vs ALFA)",
+        "beta": 0.4437,
+        "se_naive": 0.0488,
+        "z_naive": 9.1,
+        "p_naive": 0.0,
+        "se_cluster": 0.063,
+        "z_cluster": 7.04,
+        "p_cluster": 1.9380053117856733e-12,
+        "deff_se_ratio": 1.29,
+        "RRR": 1.5585,
+        "RRR_ci95_cluster": [
+          1.3774,
+          1.7635
+        ]
+      }
+    ],
+    "DEPREDADOR_vs_SENESCENCIA": [
+      {
+        "variable": "Intercepto",
+        "beta": -1.945,
+        "se_naive": 0.063,
+        "z_naive": -30.86,
+        "p_naive": 0.0,
+        "se_cluster": 0.071,
+        "z_cluster": -27.38,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.13,
+        "RRR": 0.143,
+        "RRR_ci95_cluster": [
+          0.1244,
+          0.1644
+        ]
+      },
+      {
+        "variable": "Temp_Melancolico (vs Estoico)",
+        "beta": 0.3847,
+        "se_naive": 0.0549,
+        "z_naive": 7.01,
+        "p_naive": 2.355005079834882e-12,
+        "se_cluster": 0.0612,
+        "z_cluster": 6.29,
+        "p_cluster": 3.1884361817446916e-10,
+        "deff_se_ratio": 1.11,
+        "RRR": 1.4692,
+        "RRR_ci95_cluster": [
+          1.3032,
+          1.6564
+        ]
+      },
+      {
+        "variable": "Temp_Optimista (vs Estoico)",
+        "beta": 0.2059,
+        "se_naive": 0.0554,
+        "z_naive": 3.72,
+        "p_naive": 0.00020257464432571481,
+        "se_cluster": 0.062,
+        "z_cluster": 3.32,
+        "p_cluster": 0.0008988239245919516,
+        "deff_se_ratio": 1.12,
+        "RRR": 1.2287,
+        "RRR_ci95_cluster": [
+          1.088,
+          1.3875
+        ]
+      },
+      {
+        "variable": "Temp_Entusiasta (vs Estoico)",
+        "beta": 0.1819,
+        "se_naive": 0.0555,
+        "z_naive": 3.28,
+        "p_naive": 0.001050039145385595,
+        "se_cluster": 0.0639,
+        "z_cluster": 2.85,
+        "p_cluster": 0.004391636112753616,
+        "deff_se_ratio": 1.15,
+        "RRR": 1.1995,
+        "RRR_ci95_cluster": [
+          1.0584,
+          1.3594
+        ]
+      },
+      {
+        "variable": "Temp_Colerico (vs Estoico)",
+        "beta": 0.0851,
+        "se_naive": 0.0578,
+        "z_naive": 1.47,
+        "p_naive": 0.1407576239586832,
+        "se_cluster": 0.0627,
+        "z_cluster": 1.36,
+        "p_cluster": 0.17461258052012907,
+        "deff_se_ratio": 1.09,
+        "RRR": 1.0889,
+        "RRR_ci95_cluster": [
+          0.9629,
+          1.2313
+        ]
+      },
+      {
+        "variable": "Presion_K5 (vs K3)",
+        "beta": 0.8969,
+        "se_naive": 0.035,
+        "z_naive": 25.61,
+        "p_naive": 0.0,
+        "se_cluster": 0.0414,
+        "z_cluster": 21.67,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.18,
+        "RRR": 2.4521,
+        "RRR_ci95_cluster": [
+          2.261,
+          2.6593
+        ]
+      },
+      {
+        "variable": "Memoria_M140 (vs M100)",
+        "beta": 0.152,
+        "se_naive": 0.0421,
+        "z_naive": 3.62,
+        "p_naive": 0.0003001803819171478,
+        "se_cluster": 0.0485,
+        "z_cluster": 3.13,
+        "p_cluster": 0.0017315307796632595,
+        "deff_se_ratio": 1.15,
+        "RRR": 1.1642,
+        "RRR_ci95_cluster": [
+          1.0586,
+          1.2804
+        ]
+      },
+      {
+        "variable": "Memoria_M200 (vs M100)",
+        "beta": 0.1928,
+        "se_naive": 0.0419,
+        "z_naive": 4.6,
+        "p_naive": 4.24126759601684e-06,
+        "se_cluster": 0.0474,
+        "z_cluster": 4.07,
+        "p_cluster": 4.7790704351236e-05,
+        "deff_se_ratio": 1.13,
+        "RRR": 1.2127,
+        "RRR_ci95_cluster": [
+          1.1051,
+          1.3308
+        ]
+      },
+      {
+        "variable": "Cultura_T+",
+        "beta": -0.0306,
+        "se_naive": 0.034,
+        "z_naive": -0.9,
+        "p_naive": 0.3688068799493931,
+        "se_cluster": 0.0315,
+        "z_cluster": -0.97,
+        "p_cluster": 0.3321329341293908,
+        "deff_se_ratio": 0.93,
+        "RRR": 0.9699,
+        "RRR_ci95_cluster": [
+          0.9118,
+          1.0317
+        ]
+      },
+      {
+        "variable": "Despensa_P+",
+        "beta": -0.6113,
+        "se_naive": 0.0343,
+        "z_naive": -17.8,
+        "p_naive": 0.0,
+        "se_cluster": 0.0413,
+        "z_cluster": -14.79,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.2,
+        "RRR": 0.5426,
+        "RRR_ci95_cluster": [
+          0.5004,
+          0.5884
+        ]
+      },
+      {
+        "variable": "Gen_2_BETA (vs ALFA)",
+        "beta": 0.1006,
+        "se_naive": 0.0415,
+        "z_naive": 2.43,
+        "p_naive": 0.015286287807025012,
+        "se_cluster": 0.0459,
+        "z_cluster": 2.19,
+        "p_cluster": 0.028428633443025042,
+        "deff_se_ratio": 1.11,
+        "RRR": 1.1058,
+        "RRR_ci95_cluster": [
+          1.0107,
+          1.2099
+        ]
+      },
+      {
+        "variable": "Gen_3_GAMA (vs ALFA)",
+        "beta": 0.0648,
+        "se_naive": 0.0421,
+        "z_naive": 1.54,
+        "p_naive": 0.12372715372399679,
+        "se_cluster": 0.0498,
+        "z_cluster": 1.3,
+        "p_cluster": 0.1934665678792693,
+        "deff_se_ratio": 1.18,
+        "RRR": 1.0669,
+        "RRR_ci95_cluster": [
+          0.9677,
+          1.1763
+        ]
+      }
+    ],
+    "CONTRASTE_INANICION_vs_DEPREDADOR": [
+      {
+        "variable": "Intercepto",
+        "beta": -0.1615,
+        "se_naive": 0.0879,
+        "se_cluster": 0.1062,
+        "deff_se_ratio": 1.21,
+        "z_cluster": -1.52,
+        "p_cluster": 0.12830826455850053,
+        "RRR": 0.8508
+      },
+      {
+        "variable": "Temp_Melancolico (vs Estoico)",
+        "beta": -0.0461,
+        "se_naive": 0.0748,
+        "se_cluster": 0.0913,
+        "deff_se_ratio": 1.22,
+        "z_cluster": -0.5,
+        "p_cluster": 0.6139578073048773,
+        "RRR": 0.955
+      },
+      {
+        "variable": "Temp_Optimista (vs Estoico)",
+        "beta": -0.1007,
+        "se_naive": 0.0765,
+        "se_cluster": 0.0851,
+        "deff_se_ratio": 1.11,
+        "z_cluster": -1.18,
+        "p_cluster": 0.23703817846691666,
+        "RRR": 0.9042
+      },
+      {
+        "variable": "Temp_Entusiasta (vs Estoico)",
+        "beta": -0.2154,
+        "se_naive": 0.0779,
+        "se_cluster": 0.0892,
+        "deff_se_ratio": 1.14,
+        "z_cluster": -2.42,
+        "p_cluster": 0.015719078326320357,
+        "RRR": 0.8062
+      },
+      {
+        "variable": "Temp_Colerico (vs Estoico)",
+        "beta": -0.0907,
+        "se_naive": 0.0803,
+        "se_cluster": 0.0918,
+        "deff_se_ratio": 1.14,
+        "z_cluster": -0.99,
+        "p_cluster": 0.32312465673569846,
+        "RRR": 0.9133
+      },
+      {
+        "variable": "Presion_K5 (vs K3)",
+        "beta": -0.0827,
+        "se_naive": 0.0492,
+        "se_cluster": 0.059,
+        "deff_se_ratio": 1.2,
+        "z_cluster": -1.4,
+        "p_cluster": 0.16131621703369836,
+        "RRR": 0.9207
+      },
+      {
+        "variable": "Memoria_M140 (vs M100)",
+        "beta": -0.0587,
+        "se_naive": 0.0587,
+        "se_cluster": 0.0651,
+        "deff_se_ratio": 1.11,
+        "z_cluster": -0.9,
+        "p_cluster": 0.36716112253160693,
+        "RRR": 0.943
+      },
+      {
+        "variable": "Memoria_M200 (vs M100)",
+        "beta": -0.0133,
+        "se_naive": 0.058,
+        "se_cluster": 0.0631,
+        "deff_se_ratio": 1.09,
+        "z_cluster": -0.21,
+        "p_cluster": 0.8331790293461514,
+        "RRR": 0.9868
+      },
+      {
+        "variable": "Cultura_T+",
+        "beta": -0.0255,
+        "se_naive": 0.0472,
+        "se_cluster": 0.0413,
+        "deff_se_ratio": 0.87,
+        "z_cluster": -0.62,
+        "p_cluster": 0.5364418667244206,
+        "RRR": 0.9748
+      },
+      {
+        "variable": "Despensa_P+",
+        "beta": -0.4879,
+        "se_naive": 0.05,
+        "se_cluster": 0.0605,
+        "deff_se_ratio": 1.21,
+        "z_cluster": -8.07,
+        "p_cluster": 8.881784197001252e-16,
+        "RRR": 0.6139
+      },
+      {
+        "variable": "Gen_2_BETA (vs ALFA)",
+        "beta": -0.0454,
+        "se_naive": 0.06,
+        "se_cluster": 0.0745,
+        "deff_se_ratio": 1.24,
+        "z_cluster": -0.61,
+        "p_cluster": 0.5423100874725271,
+        "RRR": 0.9556
+      },
+      {
+        "variable": "Gen_3_GAMA (vs ALFA)",
+        "beta": 0.3789,
+        "se_naive": 0.0577,
+        "se_cluster": 0.0718,
+        "deff_se_ratio": 1.24,
+        "z_cluster": 5.28,
+        "p_cluster": 1.303941146169052e-07,
+        "RRR": 1.4607
+      }
+    ]
+  },
+  "mnlogit_offspring_25920_4cat_cluster_robust": {
+    "SENESCENCIA_DESGASTE_MORDISCOS_vs_INTACTA": [
+      {
+        "variable": "Intercepto",
+        "beta": -1.5141,
+        "se_naive": 0.0609,
+        "z_naive": -24.86,
+        "p_naive": 0.0,
+        "se_cluster": 0.0726,
+        "z_cluster": -20.85,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.19,
+        "RRR": 0.22,
+        "RRR_ci95_cluster": [
+          0.1908,
+          0.2537
+        ]
+      },
+      {
+        "variable": "Temp_Melancolico (vs Estoico)",
+        "beta": 1.1001,
+        "se_naive": 0.0555,
+        "z_naive": 19.8,
+        "p_naive": 0.0,
+        "se_cluster": 0.0633,
+        "z_cluster": 17.37,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.14,
+        "RRR": 3.0046,
+        "RRR_ci95_cluster": [
+          2.6538,
+          3.4017
+        ]
+      },
+      {
+        "variable": "Temp_Optimista (vs Estoico)",
+        "beta": 0.9563,
+        "se_naive": 0.0549,
+        "z_naive": 17.41,
+        "p_naive": 0.0,
+        "se_cluster": 0.066,
+        "z_cluster": 14.49,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.2,
+        "RRR": 2.6021,
+        "RRR_ci95_cluster": [
+          2.2865,
+          2.9614
+        ]
+      },
+      {
+        "variable": "Temp_Entusiasta (vs Estoico)",
+        "beta": 0.8703,
+        "se_naive": 0.055,
+        "z_naive": 15.82,
+        "p_naive": 0.0,
+        "se_cluster": 0.0631,
+        "z_cluster": 13.79,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.15,
+        "RRR": 2.3877,
+        "RRR_ci95_cluster": [
+          2.1099,
+          2.7021
+        ]
+      },
+      {
+        "variable": "Temp_Colerico (vs Estoico)",
+        "beta": 0.5498,
+        "se_naive": 0.0568,
+        "z_naive": 9.68,
+        "p_naive": 0.0,
+        "se_cluster": 0.0665,
+        "z_cluster": 8.26,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.17,
+        "RRR": 1.7329,
+        "RRR_ci95_cluster": [
+          1.521,
+          1.9743
+        ]
+      },
+      {
+        "variable": "Presion_K5 (vs K3)",
+        "beta": 1.2277,
+        "se_naive": 0.0337,
+        "z_naive": 36.48,
+        "p_naive": 0.0,
+        "se_cluster": 0.0402,
+        "z_cluster": 30.54,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.19,
+        "RRR": 3.4133,
+        "RRR_ci95_cluster": [
+          3.1546,
+          3.6931
+        ]
+      },
+      {
+        "variable": "Memoria_M140 (vs M100)",
+        "beta": -0.1503,
+        "se_naive": 0.0395,
+        "z_naive": -3.8,
+        "p_naive": 0.00014381908459926152,
+        "se_cluster": 0.0433,
+        "z_cluster": -3.47,
+        "p_cluster": 0.0005115598378162556,
+        "deff_se_ratio": 1.09,
+        "RRR": 0.8604,
+        "RRR_ci95_cluster": [
+          0.7905,
+          0.9366
+        ]
+      },
+      {
+        "variable": "Memoria_M200 (vs M100)",
+        "beta": -0.5718,
+        "se_naive": 0.0409,
+        "z_naive": -13.97,
+        "p_naive": 0.0,
+        "se_cluster": 0.0448,
+        "z_cluster": -12.76,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.1,
+        "RRR": 0.5645,
+        "RRR_ci95_cluster": [
+          0.517,
+          0.6163
+        ]
+      },
+      {
+        "variable": "Cultura_T+",
+        "beta": 0.0154,
+        "se_naive": 0.033,
+        "z_naive": 0.47,
+        "p_naive": 0.641079610281019,
+        "se_cluster": 0.0311,
+        "z_cluster": 0.5,
+        "p_cluster": 0.6204122020580136,
+        "deff_se_ratio": 0.94,
+        "RRR": 1.0155,
+        "RRR_ci95_cluster": [
+          0.9555,
+          1.0793
+        ]
+      },
+      {
+        "variable": "Despensa_P+",
+        "beta": 0.3314,
+        "se_naive": 0.0334,
+        "z_naive": 9.91,
+        "p_naive": 0.0,
+        "se_cluster": 0.037,
+        "z_cluster": 8.95,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.11,
+        "RRR": 1.3929,
+        "RRR_ci95_cluster": [
+          1.2954,
+          1.4977
+        ]
+      },
+      {
+        "variable": "Gen_2_BETA (vs ALFA)",
+        "beta": 0.1075,
+        "se_naive": 0.038,
+        "z_naive": 2.83,
+        "p_naive": 0.004700236969694682,
+        "se_cluster": 0.0426,
+        "z_cluster": 2.52,
+        "p_cluster": 0.011700662353537616,
+        "deff_se_ratio": 1.12,
+        "RRR": 1.1135,
+        "RRR_ci95_cluster": [
+          1.0242,
+          1.2105
+        ]
+      },
+      {
+        "variable": "Gen_3_GAMA (vs ALFA)",
+        "beta": -1.4121,
+        "se_naive": 0.0445,
+        "z_naive": -31.76,
+        "p_naive": 0.0,
+        "se_cluster": 0.0503,
+        "z_cluster": -28.08,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.13,
+        "RRR": 0.2436,
+        "RRR_ci95_cluster": [
+          0.2208,
+          0.2689
+        ]
+      }
+    ],
+    "INANICION_vs_SENESCENCIA_INTACTA": [
+      {
+        "variable": "Intercepto",
+        "beta": -1.8667,
+        "se_naive": 0.0756,
+        "z_naive": -24.69,
+        "p_naive": 0.0,
+        "se_cluster": 0.089,
+        "z_cluster": -20.97,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.18,
+        "RRR": 0.1546,
+        "RRR_ci95_cluster": [
+          0.1299,
+          0.1841
+        ]
+      },
+      {
+        "variable": "Temp_Melancolico (vs Estoico)",
+        "beta": 0.7091,
+        "se_naive": 0.0661,
+        "z_naive": 10.73,
+        "p_naive": 0.0,
+        "se_cluster": 0.0776,
+        "z_cluster": 9.13,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.18,
+        "RRR": 2.0322,
+        "RRR_ci95_cluster": [
+          1.7453,
+          2.3662
+        ]
+      },
+      {
+        "variable": "Temp_Optimista (vs Estoico)",
+        "beta": 0.413,
+        "se_naive": 0.0668,
+        "z_naive": 6.18,
+        "p_naive": 6.432676613599142e-10,
+        "se_cluster": 0.0749,
+        "z_cluster": 5.52,
+        "p_cluster": 3.4808138149600154e-08,
+        "deff_se_ratio": 1.12,
+        "RRR": 1.5113,
+        "RRR_ci95_cluster": [
+          1.305,
+          1.7502
+        ]
+      },
+      {
+        "variable": "Temp_Entusiasta (vs Estoico)",
+        "beta": 0.2404,
+        "se_naive": 0.0682,
+        "z_naive": 3.53,
+        "p_naive": 0.00042233612826247935,
+        "se_cluster": 0.074,
+        "z_cluster": 3.25,
+        "p_cluster": 0.0011588334791698962,
+        "deff_se_ratio": 1.09,
+        "RRR": 1.2718,
+        "RRR_ci95_cluster": [
+          1.1001,
+          1.4703
+        ]
+      },
+      {
+        "variable": "Temp_Colerico (vs Estoico)",
+        "beta": 0.1535,
+        "se_naive": 0.0694,
+        "z_naive": 2.21,
+        "p_naive": 0.027014509017971644,
+        "se_cluster": 0.0786,
+        "z_cluster": 1.95,
+        "p_cluster": 0.050776512889628034,
+        "deff_se_ratio": 1.13,
+        "RRR": 1.1659,
+        "RRR_ci95_cluster": [
+          0.9995,
+          1.36
+        ]
+      },
+      {
+        "variable": "Presion_K5 (vs K3)",
+        "beta": 1.2314,
+        "se_naive": 0.0431,
+        "z_naive": 28.59,
+        "p_naive": 0.0,
+        "se_cluster": 0.0486,
+        "z_cluster": 25.34,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.13,
+        "RRR": 3.426,
+        "RRR_ci95_cluster": [
+          3.1148,
+          3.7683
+        ]
+      },
+      {
+        "variable": "Memoria_M140 (vs M100)",
+        "beta": 0.0345,
+        "se_naive": 0.0522,
+        "z_naive": 0.66,
+        "p_naive": 0.5093462808964455,
+        "se_cluster": 0.0585,
+        "z_cluster": 0.59,
+        "p_cluster": 0.5554034899729385,
+        "deff_se_ratio": 1.12,
+        "RRR": 1.0351,
+        "RRR_ci95_cluster": [
+          0.923,
+          1.1607
+        ]
+      },
+      {
+        "variable": "Memoria_M200 (vs M100)",
+        "beta": -0.0233,
+        "se_naive": 0.0514,
+        "z_naive": -0.45,
+        "p_naive": 0.6508710298107498,
+        "se_cluster": 0.0583,
+        "z_cluster": -0.4,
+        "p_cluster": 0.6896515702776986,
+        "deff_se_ratio": 1.13,
+        "RRR": 0.977,
+        "RRR_ci95_cluster": [
+          0.8716,
+          1.0952
+        ]
+      },
+      {
+        "variable": "Cultura_T+",
+        "beta": -0.0507,
+        "se_naive": 0.042,
+        "z_naive": -1.21,
+        "p_naive": 0.22770768462506563,
+        "se_cluster": 0.0364,
+        "z_cluster": -1.39,
+        "p_cluster": 0.16456326331078097,
+        "deff_se_ratio": 0.87,
+        "RRR": 0.9506,
+        "RRR_ci95_cluster": [
+          0.8851,
+          1.021
+        ]
+      },
+      {
+        "variable": "Despensa_P+",
+        "beta": -0.9789,
+        "se_naive": 0.0446,
+        "z_naive": -21.97,
+        "p_naive": 0.0,
+        "se_cluster": 0.0562,
+        "z_cluster": -17.43,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.26,
+        "RRR": 0.3757,
+        "RRR_ci95_cluster": [
+          0.3366,
+          0.4195
+        ]
+      },
+      {
+        "variable": "Gen_2_BETA (vs ALFA)",
+        "beta": 0.1006,
+        "se_naive": 0.0548,
+        "z_naive": 1.84,
+        "p_naive": 0.06644596769104538,
+        "se_cluster": 0.0696,
+        "z_cluster": 1.45,
+        "p_cluster": 0.14828008368096102,
+        "deff_se_ratio": 1.27,
+        "RRR": 1.1058,
+        "RRR_ci95_cluster": [
+          0.9648,
+          1.2674
+        ]
+      },
+      {
+        "variable": "Gen_3_GAMA (vs ALFA)",
+        "beta": -0.0059,
+        "se_naive": 0.0509,
+        "z_naive": -0.12,
+        "p_naive": 0.9076563617448001,
+        "se_cluster": 0.0644,
+        "z_cluster": -0.09,
+        "p_cluster": 0.9269105324588913,
+        "deff_se_ratio": 1.26,
+        "RRR": 0.9941,
+        "RRR_ci95_cluster": [
+          0.8762,
+          1.1279
+        ]
+      }
+    ],
+    "DEPREDADOR_vs_SENESCENCIA_INTACTA": [
+      {
+        "variable": "Intercepto",
+        "beta": -1.7347,
+        "se_naive": 0.0664,
+        "z_naive": -26.13,
+        "p_naive": 0.0,
+        "se_cluster": 0.0753,
+        "z_cluster": -23.04,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.13,
+        "RRR": 0.1764,
+        "RRR_ci95_cluster": [
+          0.1522,
+          0.2045
+        ]
+      },
+      {
+        "variable": "Temp_Melancolico (vs Estoico)",
+        "beta": 0.7837,
+        "se_naive": 0.0587,
+        "z_naive": 13.36,
+        "p_naive": 0.0,
+        "se_cluster": 0.0667,
+        "z_cluster": 11.75,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.14,
+        "RRR": 2.1895,
+        "RRR_ci95_cluster": [
+          1.9212,
+          2.4953
+        ]
+      },
+      {
+        "variable": "Temp_Optimista (vs Estoico)",
+        "beta": 0.5388,
+        "se_naive": 0.0587,
+        "z_naive": 9.17,
+        "p_naive": 0.0,
+        "se_cluster": 0.0673,
+        "z_cluster": 8.01,
+        "p_cluster": 1.3322676295501878e-15,
+        "deff_se_ratio": 1.15,
+        "RRR": 1.714,
+        "RRR_ci95_cluster": [
+          1.5022,
+          1.9557
+        ]
+      },
+      {
+        "variable": "Temp_Entusiasta (vs Estoico)",
+        "beta": 0.4786,
+        "se_naive": 0.0587,
+        "z_naive": 8.15,
+        "p_naive": 4.440892098500626e-16,
+        "se_cluster": 0.0673,
+        "z_cluster": 7.11,
+        "p_cluster": 1.1506351427215122e-12,
+        "deff_se_ratio": 1.15,
+        "RRR": 1.6139,
+        "RRR_ci95_cluster": [
+          1.4144,
+          1.8414
+        ]
+      },
+      {
+        "variable": "Temp_Colerico (vs Estoico)",
+        "beta": 0.258,
+        "se_naive": 0.0607,
+        "z_naive": 4.25,
+        "p_naive": 2.1136959325485094e-05,
+        "se_cluster": 0.0675,
+        "z_cluster": 3.82,
+        "p_cluster": 0.000132631676336592,
+        "deff_se_ratio": 1.11,
+        "RRR": 1.2943,
+        "RRR_ci95_cluster": [
+          1.1339,
+          1.4774
+        ]
+      },
+      {
+        "variable": "Presion_K5 (vs K3)",
+        "beta": 1.3448,
+        "se_naive": 0.0375,
+        "z_naive": 35.87,
+        "p_naive": 0.0,
+        "se_cluster": 0.0438,
+        "z_cluster": 30.72,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.17,
+        "RRR": 3.8375,
+        "RRR_ci95_cluster": [
+          3.522,
+          4.1813
+        ]
+      },
+      {
+        "variable": "Memoria_M140 (vs M100)",
+        "beta": 0.0884,
+        "se_naive": 0.0453,
+        "z_naive": 1.95,
+        "p_naive": 0.0507834031544534,
+        "se_cluster": 0.0499,
+        "z_cluster": 1.77,
+        "p_cluster": 0.07636771874477821,
+        "deff_se_ratio": 1.1,
+        "RRR": 1.0924,
+        "RRR_ci95_cluster": [
+          0.9907,
+          1.2046
+        ]
+      },
+      {
+        "variable": "Memoria_M200 (vs M100)",
+        "beta": -0.0263,
+        "se_naive": 0.0448,
+        "z_naive": -0.59,
+        "p_naive": 0.5577274018573011,
+        "se_cluster": 0.0509,
+        "z_cluster": -0.52,
+        "p_cluster": 0.6054289916456885,
+        "deff_se_ratio": 1.13,
+        "RRR": 0.9741,
+        "RRR_ci95_cluster": [
+          0.8816,
+          1.0762
+        ]
+      },
+      {
+        "variable": "Cultura_T+",
+        "beta": -0.0247,
+        "se_naive": 0.0364,
+        "z_naive": -0.68,
+        "p_naive": 0.49824398440991624,
+        "se_cluster": 0.0334,
+        "z_cluster": -0.74,
+        "p_cluster": 0.4606225102509889,
+        "deff_se_ratio": 0.92,
+        "RRR": 0.9756,
+        "RRR_ci95_cluster": [
+          0.9138,
+          1.0417
+        ]
+      },
+      {
+        "variable": "Despensa_P+",
+        "beta": -0.482,
+        "se_naive": 0.0368,
+        "z_naive": -13.11,
+        "p_naive": 0.0,
+        "se_cluster": 0.0424,
+        "z_cluster": -11.36,
+        "p_cluster": 0.0,
+        "deff_se_ratio": 1.15,
+        "RRR": 0.6176,
+        "RRR_ci95_cluster": [
+          0.5683,
+          0.6711
+        ]
+      },
+      {
+        "variable": "Gen_2_BETA (vs ALFA)",
+        "beta": 0.1482,
+        "se_naive": 0.0452,
+        "z_naive": 3.28,
+        "p_naive": 0.0010451632696084623,
+        "se_cluster": 0.0511,
+        "z_cluster": 2.9,
+        "p_cluster": 0.0037008719019957503,
+        "deff_se_ratio": 1.13,
+        "RRR": 1.1597,
+        "RRR_ci95_cluster": [
+          1.0493,
+          1.2818
+        ]
+      },
+      {
+        "variable": "Gen_3_GAMA (vs ALFA)",
+        "beta": -0.4018,
+        "se_naive": 0.0448,
+        "z_naive": -8.98,
+        "p_naive": 0.0,
+        "se_cluster": 0.0534,
+        "z_cluster": -7.53,
+        "p_cluster": 5.1736392947532295e-14,
+        "deff_se_ratio": 1.19,
+        "RRR": 0.6691,
+        "RRR_ci95_cluster": [
+          0.6026,
+          0.7429
+        ]
+      }
+    ],
+    "CONTRASTE_INANICION_vs_DEPREDADOR": [
+      {
+        "variable": "Intercepto",
+        "beta": -0.132,
+        "se_naive": 0.0878,
+        "se_cluster": 0.1059,
+        "deff_se_ratio": 1.21,
+        "z_cluster": -1.25,
+        "p_cluster": 0.21281599591257927,
+        "RRR": 0.8764
+      },
+      {
+        "variable": "Temp_Melancolico (vs Estoico)",
+        "beta": -0.0746,
+        "se_naive": 0.0749,
+        "se_cluster": 0.0915,
+        "deff_se_ratio": 1.22,
+        "z_cluster": -0.82,
+        "p_cluster": 0.41471524324500963,
+        "RRR": 0.9281
+      },
+      {
+        "variable": "Temp_Optimista (vs Estoico)",
+        "beta": -0.1258,
+        "se_naive": 0.0767,
+        "se_cluster": 0.0857,
+        "deff_se_ratio": 1.12,
+        "z_cluster": -1.47,
+        "p_cluster": 0.14194939505267978,
+        "RRR": 0.8818
+      },
+      {
+        "variable": "Temp_Entusiasta (vs Estoico)",
+        "beta": -0.2382,
+        "se_naive": 0.078,
+        "se_cluster": 0.0895,
+        "deff_se_ratio": 1.15,
+        "z_cluster": -2.66,
+        "p_cluster": 0.0077565904727552315,
+        "RRR": 0.788
+      },
+      {
+        "variable": "Temp_Colerico (vs Estoico)",
+        "beta": -0.1045,
+        "se_naive": 0.0804,
+        "se_cluster": 0.0918,
+        "deff_se_ratio": 1.14,
+        "z_cluster": -1.14,
+        "p_cluster": 0.25517414035252695,
+        "RRR": 0.9008
+      },
+      {
+        "variable": "Presion_K5 (vs K3)",
+        "beta": -0.1134,
+        "se_naive": 0.0493,
+        "se_cluster": 0.0592,
+        "deff_se_ratio": 1.2,
+        "z_cluster": -1.92,
+        "p_cluster": 0.05525216006835931,
+        "RRR": 0.8928
+      },
+      {
+        "variable": "Memoria_M140 (vs M100)",
+        "beta": -0.0539,
+        "se_naive": 0.0587,
+        "se_cluster": 0.065,
+        "deff_se_ratio": 1.11,
+        "z_cluster": -0.83,
+        "p_cluster": 0.40709744031402906,
+        "RRR": 0.9475
+      },
+      {
+        "variable": "Memoria_M200 (vs M100)",
+        "beta": 0.003,
+        "se_naive": 0.0581,
+        "se_cluster": 0.0632,
+        "deff_se_ratio": 1.09,
+        "z_cluster": 0.05,
+        "p_cluster": 0.9619382367007181,
+        "RRR": 1.003
+      },
+      {
+        "variable": "Cultura_T+",
+        "beta": -0.026,
+        "se_naive": 0.0472,
+        "se_cluster": 0.0413,
+        "deff_se_ratio": 0.88,
+        "z_cluster": -0.63,
+        "p_cluster": 0.5293029499449531,
+        "RRR": 0.9743
+      },
+      {
+        "variable": "Despensa_P+",
+        "beta": -0.4969,
+        "se_naive": 0.05,
+        "se_cluster": 0.0606,
+        "deff_se_ratio": 1.21,
+        "z_cluster": -8.2,
+        "p_cluster": 2.220446049250313e-16,
+        "RRR": 0.6084
+      },
+      {
+        "variable": "Gen_2_BETA (vs ALFA)",
+        "beta": -0.0476,
+        "se_naive": 0.06,
+        "se_cluster": 0.0746,
+        "deff_se_ratio": 1.24,
+        "z_cluster": -0.64,
+        "p_cluster": 0.5230764317510856,
+        "RRR": 0.9535
+      },
+      {
+        "variable": "Gen_3_GAMA (vs ALFA)",
+        "beta": 0.3959,
+        "se_naive": 0.0578,
+        "se_cluster": 0.0718,
+        "deff_se_ratio": 1.24,
+        "z_cluster": 5.51,
+        "p_cluster": 3.517968139021832e-08,
+        "RRR": 1.4857
+      }
+    ]
+  },
+  "sum_contrasts_offspring_vs_grand_mean_pp": {
+    "Melancólico Empático": {
+      "delta_senescencia_pp": -4.53,
+      "delta_inanicion_pp": 2.12,
+      "se_cluster_inanicion_pp": 0.62,
+      "z_cluster_inanicion": 3.42,
+      "p_raw_inanicion": 0.0006276981366375445,
+      "delta_depredador_pp": 2.42,
+      "se_cluster_depredador_pp": 0.56,
+      "z_cluster_depredador": 4.32,
+      "p_raw_depredador": 1.550222371315968e-05,
+      "p_holm_inanicion": 0.0031384906831877224,
+      "p_holm_depredador": 7.75111185657984e-05
+    },
+    "Optimista Sereno": {
+      "delta_senescencia_pp": -0.51,
+      "delta_inanicion_pp": 0.19,
+      "se_cluster_inanicion_pp": 0.5,
+      "z_cluster_inanicion": 0.38,
+      "p_raw_inanicion": 0.7039454151516744,
+      "delta_depredador_pp": 0.32,
+      "se_cluster_depredador_pp": 0.55,
+      "z_cluster_depredador": 0.58,
+      "p_raw_depredador": 0.5606891558520937,
+      "p_holm_inanicion": 0.7039454151516744,
+      "p_holm_depredador": 1.0
+    },
+    "Entusiasta Dopaminérgico": {
+      "delta_senescencia_pp": 0.75,
+      "delta_inanicion_pp": -1.07,
+      "se_cluster_inanicion_pp": 0.45,
+      "z_cluster_inanicion": -2.38,
+      "p_raw_inanicion": 0.017417318923096392,
+      "delta_depredador_pp": 0.32,
+      "se_cluster_depredador_pp": 0.54,
+      "z_cluster_depredador": 0.59,
+      "p_raw_depredador": 0.5534538376155984,
+      "p_holm_inanicion": 0.06966927569238557,
+      "p_holm_depredador": 1.0
+    },
+    "Colérico Reactivo": {
+      "delta_senescencia_pp": 1.73,
+      "delta_inanicion_pp": -0.73,
+      "se_cluster_inanicion_pp": 0.48,
+      "z_cluster_inanicion": -1.52,
+      "p_raw_inanicion": 0.1283016671907915,
+      "delta_depredador_pp": -1.0,
+      "se_cluster_depredador_pp": 0.53,
+      "z_cluster_depredador": -1.89,
+      "p_raw_depredador": 0.0591882466367506,
+      "p_holm_inanicion": 0.3849050015723745,
+      "p_holm_depredador": 0.1775647399102518
+    },
+    "Estoico Desapegado": {
+      "delta_senescencia_pp": 2.55,
+      "delta_inanicion_pp": -0.49,
+      "se_cluster_inanicion_pp": 0.49,
+      "z_cluster_inanicion": -1.0,
+      "p_raw_inanicion": 0.31731050786291437,
+      "delta_depredador_pp": -2.06,
+      "se_cluster_depredador_pp": 0.55,
+      "z_cluster_depredador": -3.75,
+      "p_raw_depredador": 0.00018006744928089624,
+      "p_holm_inanicion": 0.6346210157258287,
+      "p_holm_depredador": 0.000720269797123585
+    }
+  },
+  "pairwise_contrasts_10_pairs_holm_bonferroni": [
+    {
+      "pair": "Melancólico Empático vs Optimista Sereno",
+      "delta_inanicion_pp": 1.93,
+      "se_cluster_inanicion_pp": 0.89,
+      "z_cluster_inanicion": 2.17,
+      "p_raw_inanicion": 0.02986833243719289,
+      "delta_depredador_pp": 2.1,
+      "se_cluster_depredador_pp": 0.88,
+      "z_cluster_depredador": 2.39,
+      "p_raw_depredador": 0.016632715669785192,
+      "delta_senescencia_pp": -4.02,
+      "se_cluster_senescencia_pp": 1.15,
+      "z_cluster_senescencia": -3.51,
+      "p_raw_senescencia": 0.00045648117377083963,
+      "p_holm_inanicion": 0.20907832706035023,
+      "p_holm_depredador": 0.09472454540618847,
+      "p_holm_senescencia": 0.0031953682163958774
+    },
+    {
+      "pair": "Melancólico Empático vs Entusiasta Dopaminérgico",
+      "delta_inanicion_pp": 3.19,
+      "se_cluster_inanicion_pp": 0.85,
+      "z_cluster_inanicion": 3.74,
+      "p_raw_inanicion": 0.0001813835181145862,
+      "delta_depredador_pp": 2.1,
+      "se_cluster_depredador_pp": 0.87,
+      "z_cluster_depredador": 2.41,
+      "p_raw_depredador": 0.015787424234364744,
+      "delta_senescencia_pp": -5.28,
+      "se_cluster_senescencia_pp": 1.11,
+      "z_cluster_senescencia": -4.74,
+      "p_raw_senescencia": 2.1386575272952513e-06,
+      "p_holm_inanicion": 0.001813835181145862,
+      "p_holm_depredador": 0.09472454540618847,
+      "p_holm_senescencia": 1.710926021836201e-05
+    },
+    {
+      "pair": "Melancólico Empático vs Colérico Reactivo",
+      "delta_inanicion_pp": 2.85,
+      "se_cluster_inanicion_pp": 0.88,
+      "z_cluster_inanicion": 3.25,
+      "p_raw_inanicion": 0.001142988129401612,
+      "delta_depredador_pp": 3.42,
+      "se_cluster_depredador_pp": 0.86,
+      "z_cluster_depredador": 3.96,
+      "p_raw_depredador": 7.422943779067381e-05,
+      "delta_senescencia_pp": -6.26,
+      "se_cluster_senescencia_pp": 1.13,
+      "z_cluster_senescencia": -5.55,
+      "p_raw_senescencia": 2.7819551995378333e-08,
+      "p_holm_inanicion": 0.010286893164614508,
+      "p_holm_depredador": 0.0006680649401160643,
+      "p_holm_senescencia": 2.50375967958405e-07
+    },
+    {
+      "pair": "Melancólico Empático vs Estoico Desapegado",
+      "delta_inanicion_pp": 2.61,
+      "se_cluster_inanicion_pp": 0.88,
+      "z_cluster_inanicion": 2.96,
+      "p_raw_inanicion": 0.0030974381954540497,
+      "delta_depredador_pp": 4.48,
+      "se_cluster_depredador_pp": 0.88,
+      "z_cluster_depredador": 5.11,
+      "p_raw_depredador": 3.2429320162563613e-07,
+      "delta_senescencia_pp": -7.08,
+      "se_cluster_senescencia_pp": 1.11,
+      "z_cluster_senescencia": -6.39,
+      "p_raw_senescencia": 1.630218182668841e-10,
+      "p_holm_inanicion": 0.024779505563632398,
+      "p_holm_depredador": 3.2429320162563613e-06,
+      "p_holm_senescencia": 1.6302181826688411e-09
+    },
+    {
+      "pair": "Optimista Sereno vs Entusiasta Dopaminérgico",
+      "delta_inanicion_pp": 1.26,
+      "se_cluster_inanicion_pp": 0.75,
+      "z_cluster_inanicion": 1.68,
+      "p_raw_inanicion": 0.09327689239221315,
+      "delta_depredador_pp": 0.0,
+      "se_cluster_depredador_pp": 0.86,
+      "z_cluster_depredador": 0.0,
+      "p_raw_depredador": 1.0,
+      "delta_senescencia_pp": -1.26,
+      "se_cluster_senescencia_pp": 1.05,
+      "z_cluster_senescencia": -1.2,
+      "p_raw_senescencia": 0.23199352270654772,
+      "p_holm_inanicion": 0.5596613543532789,
+      "p_holm_depredador": 1.0,
+      "p_holm_senescencia": 0.6959805681196432
+    },
+    {
+      "pair": "Optimista Sereno vs Colérico Reactivo",
+      "delta_inanicion_pp": 0.92,
+      "se_cluster_inanicion_pp": 0.78,
+      "z_cluster_inanicion": 1.18,
+      "p_raw_inanicion": 0.23696718022187846,
+      "delta_depredador_pp": 1.32,
+      "se_cluster_depredador_pp": 0.85,
+      "z_cluster_depredador": 1.56,
+      "p_raw_depredador": 0.11984633496004049,
+      "delta_senescencia_pp": -2.24,
+      "se_cluster_senescencia_pp": 1.07,
+      "z_cluster_senescencia": -2.1,
+      "p_raw_senescencia": 0.03595001879649873,
+      "p_holm_inanicion": 1.0,
+      "p_holm_depredador": 0.4669161060737821,
+      "p_holm_senescencia": 0.17975009398249364
+    },
+    {
+      "pair": "Optimista Sereno vs Estoico Desapegado",
+      "delta_inanicion_pp": 0.68,
+      "se_cluster_inanicion_pp": 0.78,
+      "z_cluster_inanicion": 0.87,
+      "p_raw_inanicion": 0.3863092688085512,
+      "delta_depredador_pp": 2.38,
+      "se_cluster_depredador_pp": 0.86,
+      "z_cluster_depredador": 2.76,
+      "p_raw_depredador": 0.005800060279976815,
+      "delta_senescencia_pp": -3.06,
+      "se_cluster_senescencia_pp": 1.05,
+      "z_cluster_senescencia": -2.92,
+      "p_raw_senescencia": 0.0034825834235019393,
+      "p_holm_inanicion": 1.0,
+      "p_holm_depredador": 0.04327582753057513,
+      "p_holm_senescencia": 0.020895500541011636
+    },
+    {
+      "pair": "Entusiasta Dopaminérgico vs Colérico Reactivo",
+      "delta_inanicion_pp": -0.34,
+      "se_cluster_inanicion_pp": 0.74,
+      "z_cluster_inanicion": -0.46,
+      "p_raw_inanicion": 0.6440831409146961,
+      "delta_depredador_pp": 1.32,
+      "se_cluster_depredador_pp": 0.84,
+      "z_cluster_depredador": 1.57,
+      "p_raw_depredador": 0.11672902651844552,
+      "delta_senescencia_pp": -0.98,
+      "se_cluster_senescencia_pp": 1.03,
+      "z_cluster_senescencia": -0.95,
+      "p_raw_senescencia": 0.3425303002339155,
+      "p_holm_inanicion": 1.0,
+      "p_holm_depredador": 0.4669161060737821,
+      "p_holm_senescencia": 0.6959805681196432
+    },
+    {
+      "pair": "Entusiasta Dopaminérgico vs Estoico Desapegado",
+      "delta_inanicion_pp": -0.58,
+      "se_cluster_inanicion_pp": 0.74,
+      "z_cluster_inanicion": -0.78,
+      "p_raw_inanicion": 0.43521405327757545,
+      "delta_depredador_pp": 2.38,
+      "se_cluster_depredador_pp": 0.86,
+      "z_cluster_depredador": 2.78,
+      "p_raw_depredador": 0.005409478441321891,
+      "delta_senescencia_pp": -1.8,
+      "se_cluster_senescencia_pp": 1.01,
+      "z_cluster_senescencia": -1.78,
+      "p_raw_senescencia": 0.07506197982139451,
+      "p_holm_inanicion": 1.0,
+      "p_holm_depredador": 0.04327582753057513,
+      "p_holm_senescencia": 0.30024791928557804
+    },
+    {
+      "pair": "Colérico Reactivo vs Estoico Desapegado",
+      "delta_inanicion_pp": -0.24,
+      "se_cluster_inanicion_pp": 0.77,
+      "z_cluster_inanicion": -0.31,
+      "p_raw_inanicion": 0.7555167968804137,
+      "delta_depredador_pp": 1.06,
+      "se_cluster_depredador_pp": 0.85,
+      "z_cluster_depredador": 1.25,
+      "p_raw_depredador": 0.2116473304539621,
+      "delta_senescencia_pp": -0.82,
+      "se_cluster_senescencia_pp": 1.03,
+      "z_cluster_senescencia": -0.8,
+      "p_raw_senescencia": 0.4239477841350281,
+      "p_holm_inanicion": 1.0,
+      "p_holm_depredador": 0.4669161060737821,
+      "p_holm_senescencia": 0.6959805681196432
+    }
+  ],
+  "competing_risks_cause_specific_hazard_offspring": {
+    "INANICION": {
+      "events_count": 3033,
+      "total_person_cycles": 43602041.0,
+      "coefficients": [
+        {
+          "variable": "Intercepto",
+          "log_HR": -2.9244,
+          "se_naive": 0.067,
+          "se_cluster": 0.0822,
+          "deff_se_ratio": 1.23,
+          "z_cluster": -35.57,
+          "p_cluster": 0.0,
+          "CSHR": 0.0537,
+          "CSHR_ci95_cluster": [
+            0.0457,
+            0.0631
+          ]
+        },
+        {
+          "variable": "Temp_Melancolico (vs Estoico)",
+          "log_HR": 0.2599,
+          "se_naive": 0.0568,
+          "se_cluster": 0.0675,
+          "deff_se_ratio": 1.19,
+          "z_cluster": 3.85,
+          "p_cluster": 0.00011750051057601851,
+          "CSHR": 1.2968,
+          "CSHR_ci95_cluster": [
+            1.1361,
+            1.4802
+          ]
+        },
+        {
+          "variable": "Temp_Optimista (vs Estoico)",
+          "log_HR": 0.0686,
+          "se_naive": 0.0583,
+          "se_cluster": 0.0649,
+          "deff_se_ratio": 1.11,
+          "z_cluster": 1.06,
+          "p_cluster": 0.29052384500020834,
+          "CSHR": 1.071,
+          "CSHR_ci95_cluster": [
+            0.9431,
+            1.2162
+          ]
+        },
+        {
+          "variable": "Temp_Entusiasta (vs Estoico)",
+          "log_HR": -0.0637,
+          "se_naive": 0.06,
+          "se_cluster": 0.0644,
+          "deff_se_ratio": 1.07,
+          "z_cluster": -0.99,
+          "p_cluster": 0.32204587384625283,
+          "CSHR": 0.9383,
+          "CSHR_ci95_cluster": [
+            0.8271,
+            1.0644
+          ]
+        },
+        {
+          "variable": "Temp_Colerico (vs Estoico)",
+          "log_HR": -0.0191,
+          "se_naive": 0.0613,
+          "se_cluster": 0.0692,
+          "deff_se_ratio": 1.13,
+          "z_cluster": -0.28,
+          "p_cluster": 0.7822807453642653,
+          "CSHR": 0.9811,
+          "CSHR_ci95_cluster": [
+            0.8566,
+            1.1236
+          ]
+        },
+        {
+          "variable": "Presion_K5 (vs K3)",
+          "log_HR": 0.6639,
+          "se_naive": 0.0376,
+          "se_cluster": 0.0446,
+          "deff_se_ratio": 1.19,
+          "z_cluster": 14.88,
+          "p_cluster": 0.0,
+          "CSHR": 1.9424,
+          "CSHR_ci95_cluster": [
+            1.7797,
+            2.1199
+          ]
+        },
+        {
+          "variable": "Memoria_M140 (vs M100)",
+          "log_HR": 0.0737,
+          "se_naive": 0.0452,
+          "se_cluster": 0.0516,
+          "deff_se_ratio": 1.14,
+          "z_cluster": 1.43,
+          "p_cluster": 0.15283060776979385,
+          "CSHR": 1.0765,
+          "CSHR_ci95_cluster": [
+            0.973,
+            1.191
+          ]
+        },
+        {
+          "variable": "Memoria_M200 (vs M100)",
+          "log_HR": 0.1446,
+          "se_naive": 0.0445,
+          "se_cluster": 0.0499,
+          "deff_se_ratio": 1.12,
+          "z_cluster": 2.9,
+          "p_cluster": 0.00372237216338811,
+          "CSHR": 1.1556,
+          "CSHR_ci95_cluster": [
+            1.048,
+            1.2742
+          ]
+        },
+        {
+          "variable": "Cultura_T+",
+          "log_HR": -0.0441,
+          "se_naive": 0.0363,
+          "se_cluster": 0.0316,
+          "deff_se_ratio": 0.87,
+          "z_cluster": -1.39,
+          "p_cluster": 0.1631964908754424,
+          "CSHR": 0.9569,
+          "CSHR_ci95_cluster": [
+            0.8994,
+            1.018
+          ]
+        },
+        {
+          "variable": "Despensa_P+",
+          "log_HR": -0.9454,
+          "se_naive": 0.0396,
+          "se_cluster": 0.0512,
+          "deff_se_ratio": 1.29,
+          "z_cluster": -18.47,
+          "p_cluster": 0.0,
+          "CSHR": 0.3885,
+          "CSHR_ci95_cluster": [
+            0.3514,
+            0.4295
+          ]
+        },
+        {
+          "variable": "Gen_2_BETA (vs ALFA)",
+          "log_HR": 0.0608,
+          "se_naive": 0.0476,
+          "se_cluster": 0.0609,
+          "deff_se_ratio": 1.28,
+          "z_cluster": 1.0,
+          "p_cluster": 0.3180692499112783,
+          "CSHR": 1.0627,
+          "CSHR_ci95_cluster": [
+            0.9431,
+            1.1973
+          ]
+        },
+        {
+          "variable": "Gen_3_GAMA (vs ALFA)",
+          "log_HR": 0.4046,
+          "se_naive": 0.0441,
+          "se_cluster": 0.0571,
+          "deff_se_ratio": 1.3,
+          "z_cluster": 7.09,
+          "p_cluster": 1.3700152123874432e-12,
+          "CSHR": 1.4987,
+          "CSHR_ci95_cluster": [
+            1.34,
+            1.6761
+          ]
+        }
+      ]
+    },
+    "DEPREDADOR": {
+      "events_count": 4488,
+      "total_person_cycles": 43602041.0,
+      "coefficients": [
+        {
+          "variable": "Intercepto",
+          "log_HR": -2.7696,
+          "se_naive": 0.0564,
+          "se_cluster": 0.0631,
+          "deff_se_ratio": 1.12,
+          "z_cluster": -43.88,
+          "p_cluster": 0.0,
+          "CSHR": 0.0627,
+          "CSHR_ci95_cluster": [
+            0.0554,
+            0.0709
+          ]
+        },
+        {
+          "variable": "Temp_Melancolico (vs Estoico)",
+          "log_HR": 0.3095,
+          "se_naive": 0.0482,
+          "se_cluster": 0.0532,
+          "deff_se_ratio": 1.1,
+          "z_cluster": 5.82,
+          "p_cluster": 6.033194388521679e-09,
+          "CSHR": 1.3628,
+          "CSHR_ci95_cluster": [
+            1.2278,
+            1.5126
+          ]
+        },
+        {
+          "variable": "Temp_Optimista (vs Estoico)",
+          "log_HR": 0.1748,
+          "se_naive": 0.0491,
+          "se_cluster": 0.0548,
+          "deff_se_ratio": 1.12,
+          "z_cluster": 3.19,
+          "p_cluster": 0.0014297901430244675,
+          "CSHR": 1.191,
+          "CSHR_ci95_cluster": [
+            1.0697,
+            1.3261
+          ]
+        },
+        {
+          "variable": "Temp_Entusiasta (vs Estoico)",
+          "log_HR": 0.1578,
+          "se_naive": 0.0493,
+          "se_cluster": 0.0567,
+          "deff_se_ratio": 1.15,
+          "z_cluster": 2.78,
+          "p_cluster": 0.0053638933784077025,
+          "CSHR": 1.1709,
+          "CSHR_ci95_cluster": [
+            1.0478,
+            1.3085
+          ]
+        },
+        {
+          "variable": "Temp_Colerico (vs Estoico)",
+          "log_HR": 0.0726,
+          "se_naive": 0.0515,
+          "se_cluster": 0.0566,
+          "deff_se_ratio": 1.1,
+          "z_cluster": 1.28,
+          "p_cluster": 0.199443566821343,
+          "CSHR": 1.0753,
+          "CSHR_ci95_cluster": [
+            0.9624,
+            1.2013
+          ]
+        },
+        {
+          "variable": "Presion_K5 (vs K3)",
+          "log_HR": 0.7556,
+          "se_naive": 0.0314,
+          "se_cluster": 0.0369,
+          "deff_se_ratio": 1.18,
+          "z_cluster": 20.46,
+          "p_cluster": 0.0,
+          "CSHR": 2.1288,
+          "CSHR_ci95_cluster": [
+            1.9802,
+            2.2886
+          ]
+        },
+        {
+          "variable": "Memoria_M140 (vs M100)",
+          "log_HR": 0.1322,
+          "se_naive": 0.0371,
+          "se_cluster": 0.0417,
+          "deff_se_ratio": 1.13,
+          "z_cluster": 3.17,
+          "p_cluster": 0.0015395160668978392,
+          "CSHR": 1.1413,
+          "CSHR_ci95_cluster": [
+            1.0517,
+            1.2385
+          ]
+        },
+        {
+          "variable": "Memoria_M200 (vs M100)",
+          "log_HR": 0.1563,
+          "se_naive": 0.0369,
+          "se_cluster": 0.0408,
+          "deff_se_ratio": 1.11,
+          "z_cluster": 3.83,
+          "p_cluster": 0.00012967666081031837,
+          "CSHR": 1.1692,
+          "CSHR_ci95_cluster": [
+            1.0792,
+            1.2666
+          ]
+        },
+        {
+          "variable": "Cultura_T+",
+          "log_HR": -0.0199,
+          "se_naive": 0.0299,
+          "se_cluster": 0.0266,
+          "deff_se_ratio": 0.89,
+          "z_cluster": -0.75,
+          "p_cluster": 0.454093884892139,
+          "CSHR": 0.9803,
+          "CSHR_ci95_cluster": [
+            0.9304,
+            1.0328
+          ]
+        },
+        {
+          "variable": "Despensa_P+",
+          "log_HR": -0.4576,
+          "se_naive": 0.0303,
+          "se_cluster": 0.0356,
+          "deff_se_ratio": 1.17,
+          "z_cluster": -12.84,
+          "p_cluster": 0.0,
+          "CSHR": 0.6328,
+          "CSHR_ci95_cluster": [
+            0.5901,
+            0.6786
+          ]
+        },
+        {
+          "variable": "Gen_2_BETA (vs ALFA)",
+          "log_HR": 0.1038,
+          "se_naive": 0.0364,
+          "se_cluster": 0.0398,
+          "deff_se_ratio": 1.09,
+          "z_cluster": 2.61,
+          "p_cluster": 0.008993948590498846,
+          "CSHR": 1.1094,
+          "CSHR_ci95_cluster": [
+            1.0263,
+            1.1993
+          ]
+        },
+        {
+          "variable": "Gen_3_GAMA (vs ALFA)",
+          "log_HR": 0.0248,
+          "se_naive": 0.037,
+          "se_cluster": 0.0434,
+          "deff_se_ratio": 1.17,
+          "z_cluster": 0.57,
+          "p_cluster": 0.5683934845311107,
+          "CSHR": 1.0251,
+          "CSHR_ci95_cluster": [
+            0.9415,
+            1.1161
+          ]
+        }
+      ]
+    },
+    "SENESCENCIA_DESGASTE_MORDISCOS": {
+      "events_count": 6592,
+      "total_person_cycles": 43602041.0,
+      "coefficients": [
+        {
+          "variable": "Intercepto",
+          "log_HR": -2.4876,
+          "se_naive": 0.0484,
+          "se_cluster": 0.0485,
+          "deff_se_ratio": 1.0,
+          "z_cluster": -51.29,
+          "p_cluster": 0.0,
+          "CSHR": 0.0831,
+          "CSHR_ci95_cluster": [
+            0.0756,
+            0.0914
+          ]
+        },
+        {
+          "variable": "Temp_Melancolico (vs Estoico)",
+          "log_HR": 0.5885,
+          "se_naive": 0.0432,
+          "se_cluster": 0.0407,
+          "deff_se_ratio": 0.94,
+          "z_cluster": 14.45,
+          "p_cluster": 0.0,
+          "CSHR": 1.8013,
+          "CSHR_ci95_cluster": [
+            1.6631,
+            1.9511
+          ]
+        },
+        {
+          "variable": "Temp_Optimista (vs Estoico)",
+          "log_HR": 0.561,
+          "se_naive": 0.0433,
+          "se_cluster": 0.043,
+          "deff_se_ratio": 0.99,
+          "z_cluster": 13.06,
+          "p_cluster": 0.0,
+          "CSHR": 1.7525,
+          "CSHR_ci95_cluster": [
+            1.611,
+            1.9064
+          ]
+        },
+        {
+          "variable": "Temp_Entusiasta (vs Estoico)",
+          "log_HR": 0.5224,
+          "se_naive": 0.0436,
+          "se_cluster": 0.0418,
+          "deff_se_ratio": 0.96,
+          "z_cluster": 12.49,
+          "p_cluster": 0.0,
+          "CSHR": 1.6861,
+          "CSHR_ci95_cluster": [
+            1.5534,
+            1.8302
+          ]
+        },
+        {
+          "variable": "Temp_Colerico (vs Estoico)",
+          "log_HR": 0.3427,
+          "se_naive": 0.0457,
+          "se_cluster": 0.0438,
+          "deff_se_ratio": 0.96,
+          "z_cluster": 7.82,
+          "p_cluster": 5.329070518200751e-15,
+          "CSHR": 1.4088,
+          "CSHR_ci95_cluster": [
+            1.2929,
+            1.5351
+          ]
+        },
+        {
+          "variable": "Presion_K5 (vs K3)",
+          "log_HR": 0.5833,
+          "se_naive": 0.0254,
+          "se_cluster": 0.0246,
+          "deff_se_ratio": 0.97,
+          "z_cluster": 23.73,
+          "p_cluster": 0.0,
+          "CSHR": 1.792,
+          "CSHR_ci95_cluster": [
+            1.7077,
+            1.8804
+          ]
+        },
+        {
+          "variable": "Memoria_M140 (vs M100)",
+          "log_HR": -0.101,
+          "se_naive": 0.0288,
+          "se_cluster": 0.0244,
+          "deff_se_ratio": 0.85,
+          "z_cluster": -4.15,
+          "p_cluster": 3.358387021079601e-05,
+          "CSHR": 0.9039,
+          "CSHR_ci95_cluster": [
+            0.8618,
+            0.9481
+          ]
+        },
+        {
+          "variable": "Memoria_M200 (vs M100)",
+          "log_HR": -0.3659,
+          "se_naive": 0.031,
+          "se_cluster": 0.0265,
+          "deff_se_ratio": 0.86,
+          "z_cluster": -13.79,
+          "p_cluster": 0.0,
+          "CSHR": 0.6936,
+          "CSHR_ci95_cluster": [
+            0.6584,
+            0.7306
+          ]
+        },
+        {
+          "variable": "Cultura_T+",
+          "log_HR": 0.016,
+          "se_naive": 0.0246,
+          "se_cluster": 0.0184,
+          "deff_se_ratio": 0.75,
+          "z_cluster": 0.87,
+          "p_cluster": 0.3845935065378452,
+          "CSHR": 1.0161,
+          "CSHR_ci95_cluster": [
+            0.9802,
+            1.0533
+          ]
+        },
+        {
+          "variable": "Despensa_P+",
+          "log_HR": 0.3364,
+          "se_naive": 0.0252,
+          "se_cluster": 0.0223,
+          "deff_se_ratio": 0.89,
+          "z_cluster": 15.08,
+          "p_cluster": 0.0,
+          "CSHR": 1.3998,
+          "CSHR_ci95_cluster": [
+            1.34,
+            1.4624
+          ]
+        },
+        {
+          "variable": "Gen_2_BETA (vs ALFA)",
+          "log_HR": 0.0538,
+          "se_naive": 0.0269,
+          "se_cluster": 0.0232,
+          "deff_se_ratio": 0.86,
+          "z_cluster": 2.31,
+          "p_cluster": 0.020675951345107357,
+          "CSHR": 1.0553,
+          "CSHR_ci95_cluster": [
+            1.0083,
+            1.1045
+          ]
+        },
+        {
+          "variable": "Gen_3_GAMA (vs ALFA)",
+          "log_HR": -0.9618,
+          "se_naive": 0.0365,
+          "se_cluster": 0.0342,
+          "deff_se_ratio": 0.94,
+          "z_cluster": -28.13,
+          "p_cluster": 0.0,
+          "CSHR": 0.3822,
+          "CSHR_ci95_cluster": [
+            0.3574,
+            0.4087
+          ]
+        }
+      ]
+    }
+  },
+  "kin_selection_parent_to_child_observational": {
+    "Melancólico Empático": {
+      "N_children": 5520,
+      "parent_oxi_mean": 0.862,
+      "child_mean_age": 1678.99,
+      "child_senescence_pct": 70.33,
+      "child_inanicion_pct": 11.49,
+      "child_depredador_pct": 18.19
+    },
+    "Optimista Sereno": {
+      "N_children": 5160,
+      "parent_oxi_mean": 0.742,
+      "child_mean_age": 1686.54,
+      "child_senescence_pct": 71.26,
+      "child_inanicion_pct": 11.53,
+      "child_depredador_pct": 17.21
+    },
+    "Entusiasta Dopaminérgico": {
+      "N_children": 4800,
+      "parent_oxi_mean": 0.6,
+      "child_mean_age": 1690.05,
+      "child_senescence_pct": 71.58,
+      "child_inanicion_pct": 11.48,
+      "child_depredador_pct": 16.94
+    },
+    "Colérico Reactivo": {
+      "N_children": 5136,
+      "parent_oxi_mean": 0.402,
+      "child_mean_age": 1682.09,
+      "child_senescence_pct": 70.81,
+      "child_inanicion_pct": 11.72,
+      "child_depredador_pct": 17.46
+    },
+    "Estoico Desapegado": {
+      "N_children": 5304,
+      "parent_oxi_mean": 0.219,
+      "child_mean_age": 1674.21,
+      "child_senescence_pct": 71.02,
+      "child_inanicion_pct": 12.27,
+      "child_depredador_pct": 16.7
+    }
+  }
+}
