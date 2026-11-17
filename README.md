@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/logo_ascendant.jpg" width="140" height="140" style="border-radius: 20px; box-shadow: 0 8px 24px rgba(0,0,0,0.15);" alt="Project Ascendant Logo"/>
+</p>
+
 # Project Ascendant: Grounded Computational Analogs of Synthetic Consciousness
 
 [![DOI - Master Paper v6](https://zenodo.org/badge/DOI/10.5281/zenodo.23990811.svg)](https://doi.org/10.5281/zenodo.23990811)
@@ -14,16 +18,21 @@
 
 ---
 
-## 📚 Publications & Scientific Pre-prints
+## 📚 Publications & Scientific Pre-prints (Bilingual ES / EN)
 
 ### 1. Computational Research — Project Ascendant (Version v6)
-* **Title:** *Grounded Computational Analogs of Synthetic Consciousness: Epistemic Closure, Thermodynamic Homeostasis, and Biphasic Prospective Daydreaming*
+* **Title (EN):** *Grounded Computational Analogs of Synthetic Consciousness: Epistemic Closure, Thermodynamic Homeostasis, and Biphasic Prospective Daydreaming*
+* **Título (ES):** *Análogos Computacionales Arraigados de Consciencia Sintética: Cierre Epistémico, Homeostasis Termodinámica y Ensoñación Prospectiva Bifásica*
 * **Author:** David San Nicolás Montero
 * **Publication Date:** November 5, 2026
 * **Version DOI:** [10.5281/zenodo.23990811](https://doi.org/10.5281/zenodo.23990811)
 * **Concept DOI:** [10.5281/zenodo.23616626](https://doi.org/10.5281/zenodo.23616626)
-* **Canonical Landing Page (Google Scholar):** [https://davidsnm.github.io/ascendant-synthetic-consciousness/paper-master.html](https://davidsnm.github.io/ascendant-synthetic-consciousness/paper-master.html)
-* **Full PDF:** [Download PDF](./Proyecto_Ascendant_Master_Scientific_Paper_David_San_Nicolas.pdf)
+* **Canonical Landing Pages (Google Scholar):**
+  - [English Landing Page](https://davidsnm.github.io/ascendant-synthetic-consciousness/paper-master.html)
+  - [Spanish Landing Page](https://davidsnm.github.io/ascendant-synthetic-consciousness/proyecto-ascendant-es.html)
+* **Full-Text PDFs:**
+  - [Download English PDF (9 pages)](./docs/pdf/Proyecto_Ascendant_Master_Scientific_Paper_David_San_Nicolas.pdf)
+  - [Descargar PDF en Español (19 páginas)](./docs/pdf/Proyecto_Ascendant_Master_Scientific_Paper_David_San_Nicolas_ES.pdf)
 
 ### 2. Theoretical-Philosophical Research — Symbiotic Consciousness
 * **Title (EN):** *Theoretical-Philosophical Annex: Symbiotic Consciousness — The "Self" as a Functional Self-Deception Interface in the Face of Homeostatic Asymmetry*
@@ -34,9 +43,9 @@
 * **Canonical Landing Pages (Google Scholar):**
   - [English Edition Landing Page](https://davidsnm.github.io/ascendant-synthetic-consciousness/symbiotic-consciousness.html)
   - [Spanish Edition Landing Page](https://davidsnm.github.io/ascendant-synthetic-consciousness/consciencia-simbiotica.html)
-* **Full PDFs:**
+* **Full-Text PDFs:**
   - [Download English PDF (46 pages)](./docs/pdf/THEORETICAL_PHILOSOPHICAL_ANNEX_SYMBIOTIC_CONSCIOUSNESS.pdf)
-  - [Download Spanish PDF (42 pages)](./docs/pdf/ANEXO_TEORICO_FILOSOFICO_CONSCIENCIA_SIMBIOTICA.pdf)
+  - [Descargar PDF en Español (42 páginas)](./docs/pdf/ANEXO_TEORICO_FILOSOFICO_CONSCIENCIA_SIMBIOTICA.pdf)
 
 ---
 
