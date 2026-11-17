@@ -1,0 +1,1170 @@
+{
+  "metadata": {
+    "author": "David San Nicolás Montero",
+    "orcid": "0009-0000-9977-007X",
+    "sample": "N = 25.920 descendientes homogéneos (ALFA, BETA, GAMA; techo inicial 2.000 ciclos; G = 360 semillas independientes)",
+    "operational_bite_rule": "mordiscos_recibidos = (initial_max_lifespan - final_max_lifespan) / 8 (exactamente 8 ciclos vitales transferidos por mordisco en línea 2046 del motor)"
+  },
+  "cox_breslow_cause_specific_clustered": {
+    "INANICION": {
+      "events_count": 3033,
+      "log_partial_likelihood": -29797.79,
+      "wald_temperament_block_4df": 28.43,
+      "p_wald_temperament_block": 1.0180803663222292e-05,
+      "coefficients": {
+        "Melancólico vs Estoico": {
+          "beta": 0.2668,
+          "se_naive": 0.0568,
+          "se_cluster": 0.068,
+          "deff_se": 1.198,
+          "CSHR": 1.3058,
+          "IC95_CSHR": [
+            1.1428,
+            1.4921
+          ],
+          "z_cluster": 3.921,
+          "p_cluster": 8.80043911265212e-05,
+          "p_holm_4arch": 0.000352
+        },
+        "Optimista vs Estoico": {
+          "beta": 0.0708,
+          "se_naive": 0.0584,
+          "se_cluster": 0.0655,
+          "deff_se": 1.123,
+          "CSHR": 1.0733,
+          "IC95_CSHR": [
+            0.944,
+            1.2204
+          ],
+          "z_cluster": 1.08,
+          "p_cluster": 0.2800172522839525,
+          "p_holm_4arch": 0.840052
+        },
+        "Entusiasta vs Estoico": {
+          "beta": -0.065,
+          "se_naive": 0.06,
+          "se_cluster": 0.0649,
+          "deff_se": 1.08,
+          "CSHR": 0.9371,
+          "IC95_CSHR": [
+            0.8252,
+            1.0641
+          ],
+          "z_cluster": -1.001,
+          "p_cluster": 0.3165968699479452,
+          "p_holm_4arch": 0.840052
+        },
+        "Colérico vs Estoico": {
+          "beta": -0.0197,
+          "se_naive": 0.0613,
+          "se_cluster": 0.0698,
+          "deff_se": 1.139,
+          "CSHR": 0.9805,
+          "IC95_CSHR": [
+            0.8551,
+            1.1243
+          ],
+          "z_cluster": -0.282,
+          "p_cluster": 0.7780000779768662,
+          "p_holm_4arch": 0.840052
+        },
+        "K=5 vs K=3": {
+          "beta": 0.6806,
+          "se_naive": 0.0377,
+          "se_cluster": 0.0453,
+          "deff_se": 1.202,
+          "CSHR": 1.9751,
+          "IC95_CSHR": [
+            1.8074,
+            2.1584
+          ],
+          "z_cluster": 15.034,
+          "p_cluster": 4.42572736541121e-51,
+          "p_holm_4arch": null
+        },
+        "M=140 vs M=100": {
+          "beta": 0.0779,
+          "se_naive": 0.0452,
+          "se_cluster": 0.0522,
+          "deff_se": 1.156,
+          "CSHR": 1.081,
+          "IC95_CSHR": [
+            0.9758,
+            1.1976
+          ],
+          "z_cluster": 1.491,
+          "p_cluster": 0.1358557567792275,
+          "p_holm_4arch": null
+        },
+        "M=200 vs M=100": {
+          "beta": 0.1501,
+          "se_naive": 0.0445,
+          "se_cluster": 0.0506,
+          "deff_se": 1.136,
+          "CSHR": 1.1619,
+          "IC95_CSHR": [
+            1.0523,
+            1.2829
+          ],
+          "z_cluster": 2.969,
+          "p_cluster": 0.0029920986315478356,
+          "p_holm_4arch": null
+        },
+        "Cultura T+ vs T0": {
+          "beta": -0.0443,
+          "se_naive": 0.0363,
+          "se_cluster": 0.032,
+          "deff_se": 0.882,
+          "CSHR": 0.9566,
+          "IC95_CSHR": [
+            0.8984,
+            1.0186
+          ],
+          "z_cluster": -1.385,
+          "p_cluster": 0.16616753272747017,
+          "p_holm_4arch": null
+        },
+        "Despensa P+ vs P-": {
+          "beta": -0.9608,
+          "se_naive": 0.0396,
+          "se_cluster": 0.0519,
+          "deff_se": 1.309,
+          "CSHR": 0.3826,
+          "IC95_CSHR": [
+            0.3456,
+            0.4236
+          ],
+          "z_cluster": -18.517,
+          "p_cluster": 1.5188949952712538e-76,
+          "p_holm_4arch": null
+        },
+        "Gen 2 (BETA) vs Gen 1 (ALFA)": {
+          "beta": 0.0653,
+          "se_naive": 0.0476,
+          "se_cluster": 0.0615,
+          "deff_se": 1.292,
+          "CSHR": 1.0674,
+          "IC95_CSHR": [
+            0.9463,
+            1.2041
+          ],
+          "z_cluster": 1.062,
+          "p_cluster": 0.2884486376658562,
+          "p_holm_4arch": null
+        },
+        "Gen 3 (GAMA) vs Gen 1 (ALFA)": {
+          "beta": 0.4112,
+          "se_naive": 0.0441,
+          "se_cluster": 0.0579,
+          "deff_se": 1.313,
+          "CSHR": 1.5086,
+          "IC95_CSHR": [
+            1.3468,
+            1.6898
+          ],
+          "z_cluster": 7.104,
+          "p_cluster": 1.2112172288699223e-12,
+          "p_holm_4arch": null
+        }
+      }
+    },
+    "DEPREDADOR": {
+      "events_count": 4488,
+      "log_partial_likelihood": -43643.99,
+      "wald_temperament_block_4df": 58.37,
+      "p_wald_temperament_block": 6.393144651201854e-12,
+      "coefficients": {
+        "Melancólico vs Estoico": {
+          "beta": 0.3993,
+          "se_naive": 0.0483,
+          "se_cluster": 0.0549,
+          "deff_se": 1.135,
+          "CSHR": 1.4908,
+          "IC95_CSHR": [
+            1.3388,
+            1.6602
+          ],
+          "z_cluster": 7.276,
+          "p_cluster": 3.4504387439877053e-13,
+          "p_holm_4arch": 0.0
+        },
+        "Optimista vs Estoico": {
+          "beta": 0.245,
+          "se_naive": 0.0492,
+          "se_cluster": 0.0565,
+          "deff_se": 1.148,
+          "CSHR": 1.2777,
+          "IC95_CSHR": [
+            1.1437,
+            1.4273
+          ],
+          "z_cluster": 4.337,
+          "p_cluster": 1.4419439425617793e-05,
+          "p_holm_4arch": 4.3e-05
+        },
+        "Entusiasta vs Estoico": {
+          "beta": 0.2196,
+          "se_naive": 0.0493,
+          "se_cluster": 0.0582,
+          "deff_se": 1.18,
+          "CSHR": 1.2456,
+          "IC95_CSHR": [
+            1.1113,
+            1.3961
+          ],
+          "z_cluster": 3.773,
+          "p_cluster": 0.00016107578200818322,
+          "p_holm_4arch": 0.000322
+        },
+        "Colérico vs Estoico": {
+          "beta": 0.1146,
+          "se_naive": 0.0515,
+          "se_cluster": 0.0581,
+          "deff_se": 1.129,
+          "CSHR": 1.1214,
+          "IC95_CSHR": [
+            1.0007,
+            1.2568
+          ],
+          "z_cluster": 1.971,
+          "p_cluster": 0.04867674076620973,
+          "p_holm_4arch": 0.048677
+        },
+        "K=5 vs K=3": {
+          "beta": 0.8759,
+          "se_naive": 0.0316,
+          "se_cluster": 0.0379,
+          "deff_se": 1.199,
+          "CSHR": 2.401,
+          "IC95_CSHR": [
+            2.229,
+            2.5863
+          ],
+          "z_cluster": 23.095,
+          "p_cluster": 5.189912908458976e-118,
+          "p_holm_4arch": null
+        },
+        "M=140 vs M=100": {
+          "beta": 0.1284,
+          "se_naive": 0.0371,
+          "se_cluster": 0.0423,
+          "deff_se": 1.14,
+          "CSHR": 1.137,
+          "IC95_CSHR": [
+            1.0465,
+            1.2353
+          ],
+          "z_cluster": 3.035,
+          "p_cluster": 0.002405977134728484,
+          "p_holm_4arch": null
+        },
+        "M=200 vs M=100": {
+          "beta": 0.1241,
+          "se_naive": 0.0369,
+          "se_cluster": 0.0419,
+          "deff_se": 1.135,
+          "CSHR": 1.1321,
+          "IC95_CSHR": [
+            1.0428,
+            1.2291
+          ],
+          "z_cluster": 2.96,
+          "p_cluster": 0.003072408438728533,
+          "p_holm_4arch": null
+        },
+        "Cultura T+ vs T0": {
+          "beta": -0.0217,
+          "se_naive": 0.0299,
+          "se_cluster": 0.0273,
+          "deff_se": 0.913,
+          "CSHR": 0.9786,
+          "IC95_CSHR": [
+            0.9276,
+            1.0323
+          ],
+          "z_cluster": -0.795,
+          "p_cluster": 0.4264762201443297,
+          "p_holm_4arch": null
+        },
+        "Despensa P+ vs P-": {
+          "beta": -0.4611,
+          "se_naive": 0.0304,
+          "se_cluster": 0.0366,
+          "deff_se": 1.205,
+          "CSHR": 0.6306,
+          "IC95_CSHR": [
+            0.5869,
+            0.6775
+          ],
+          "z_cluster": -12.592,
+          "p_cluster": 2.337377997517287e-36,
+          "p_holm_4arch": null
+        },
+        "Gen 2 (BETA) vs Gen 1 (ALFA)": {
+          "beta": 0.1067,
+          "se_naive": 0.0364,
+          "se_cluster": 0.0411,
+          "deff_se": 1.129,
+          "CSHR": 1.1126,
+          "IC95_CSHR": [
+            1.0265,
+            1.2059
+          ],
+          "z_cluster": 2.595,
+          "p_cluster": 0.009449068441964472,
+          "p_holm_4arch": null
+        },
+        "Gen 3 (GAMA) vs Gen 1 (ALFA)": {
+          "beta": -0.0862,
+          "se_naive": 0.0374,
+          "se_cluster": 0.0453,
+          "deff_se": 1.212,
+          "CSHR": 0.9174,
+          "IC95_CSHR": [
+            0.8394,
+            1.0026
+          ],
+          "z_cluster": -1.903,
+          "p_cluster": 0.05697685993716521,
+          "p_holm_4arch": null
+        }
+      }
+    },
+    "SENESCENCIA_NATURAL": {
+      "events_count": 18399,
+      "log_partial_likelihood": -163372.62,
+      "wald_temperament_block_4df": 377.87,
+      "p_wald_temperament_block": 1.6766808718266268e-80,
+      "coefficients": {
+        "Melancólico vs Estoico": {
+          "beta": 0.4477,
+          "se_naive": 0.0239,
+          "se_cluster": 0.0268,
+          "deff_se": 1.121,
+          "CSHR": 1.5647,
+          "IC95_CSHR": [
+            1.4846,
+            1.649
+          ],
+          "z_cluster": 16.709,
+          "p_cluster": 1.1232621564348638e-62,
+          "p_holm_4arch": 0.0
+        },
+        "Optimista vs Estoico": {
+          "beta": 0.3907,
+          "se_naive": 0.0234,
+          "se_cluster": 0.0261,
+          "deff_se": 1.116,
+          "CSHR": 1.4779,
+          "IC95_CSHR": [
+            1.4042,
+            1.5556
+          ],
+          "z_cluster": 14.961,
+          "p_cluster": 1.3283465164732805e-50,
+          "p_holm_4arch": 0.0
+        },
+        "Entusiasta vs Estoico": {
+          "beta": 0.359,
+          "se_naive": 0.0234,
+          "se_cluster": 0.0241,
+          "deff_se": 1.03,
+          "CSHR": 1.4319,
+          "IC95_CSHR": [
+            1.3658,
+            1.5011
+          ],
+          "z_cluster": 14.902,
+          "p_cluster": 3.178573176194557e-50,
+          "p_holm_4arch": 0.0
+        },
+        "Colérico vs Estoico": {
+          "beta": 0.2182,
+          "se_naive": 0.0239,
+          "se_cluster": 0.0264,
+          "deff_se": 1.107,
+          "CSHR": 1.2439,
+          "IC95_CSHR": [
+            1.1811,
+            1.31
+          ],
+          "z_cluster": 8.259,
+          "p_cluster": 1.4673038822541645e-16,
+          "p_holm_4arch": 0.0
+        },
+        "K=5 vs K=3": {
+          "beta": 0.5444,
+          "se_naive": 0.0151,
+          "se_cluster": 0.0171,
+          "deff_se": 1.133,
+          "CSHR": 1.7235,
+          "IC95_CSHR": [
+            1.6666,
+            1.7823
+          ],
+          "z_cluster": 31.8,
+          "p_cluster": 6.466122969268206e-222,
+          "p_holm_4arch": null
+        },
+        "M=140 vs M=100": {
+          "beta": -0.0645,
+          "se_naive": 0.018,
+          "se_cluster": 0.0198,
+          "deff_se": 1.102,
+          "CSHR": 0.9375,
+          "IC95_CSHR": [
+            0.9018,
+            0.9747
+          ],
+          "z_cluster": -3.256,
+          "p_cluster": 0.0011288537469793388,
+          "p_holm_4arch": null
+        },
+        "M=200 vs M=100": {
+          "beta": -0.2614,
+          "se_naive": 0.0181,
+          "se_cluster": 0.0201,
+          "deff_se": 1.109,
+          "CSHR": 0.77,
+          "IC95_CSHR": [
+            0.7403,
+            0.8009
+          ],
+          "z_cluster": -13.016,
+          "p_cluster": 9.864833534700224e-39,
+          "p_holm_4arch": null
+        },
+        "Cultura T+ vs T0": {
+          "beta": -0.0021,
+          "se_naive": 0.0147,
+          "se_cluster": 0.0124,
+          "deff_se": 0.843,
+          "CSHR": 0.9979,
+          "IC95_CSHR": [
+            0.9739,
+            1.0225
+          ],
+          "z_cluster": -0.172,
+          "p_cluster": 0.8636060350876594,
+          "p_holm_4arch": null
+        },
+        "Despensa P+ vs P-": {
+          "beta": 0.2006,
+          "se_naive": 0.0149,
+          "se_cluster": 0.0175,
+          "deff_se": 1.176,
+          "CSHR": 1.2222,
+          "IC95_CSHR": [
+            1.181,
+            1.2648
+          ],
+          "z_cluster": 11.464,
+          "p_cluster": 1.9971152234747904e-30,
+          "p_holm_4arch": null
+        },
+        "Gen 2 (BETA) vs Gen 1 (ALFA)": {
+          "beta": -0.0138,
+          "se_naive": 0.018,
+          "se_cluster": 0.0205,
+          "deff_se": 1.141,
+          "CSHR": 0.9863,
+          "IC95_CSHR": [
+            0.9475,
+            1.0268
+          ],
+          "z_cluster": -0.671,
+          "p_cluster": 0.5019046092448134,
+          "p_holm_4arch": null
+        },
+        "Gen 3 (GAMA) vs Gen 1 (ALFA)": {
+          "beta": -0.7498,
+          "se_naive": 0.0187,
+          "se_cluster": 0.0198,
+          "deff_se": 1.055,
+          "CSHR": 0.4725,
+          "IC95_CSHR": [
+            0.4545,
+            0.4911
+          ],
+          "z_cluster": -37.937,
+          "p_cluster": 6.304458375e-315,
+          "p_holm_4arch": null
+        }
+      }
+    }
+  },
+  "aalen_johansen_cif_by_archetype": {
+    "Estoico Desapegado": {
+      "500": {
+        "inanicion_pct": 2.35,
+        "depredacion_pct": 2.88,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 94.77
+      },
+      "1000": {
+        "inanicion_pct": 5.92,
+        "depredacion_pct": 6.71,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 87.38
+      },
+      "1500": {
+        "inanicion_pct": 9.02,
+        "depredacion_pct": 9.73,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 81.25
+      },
+      "2000": {
+        "inanicion_pct": 11.19,
+        "depredacion_pct": 15.19,
+        "senescencia_pct": 73.62,
+        "supervivencia_S_t_pct": 0.0
+      }
+    },
+    "Melancólico Empático": {
+      "500": {
+        "inanicion_pct": 2.78,
+        "depredacion_pct": 3.45,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 93.77
+      },
+      "1000": {
+        "inanicion_pct": 7.17,
+        "depredacion_pct": 8.46,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 84.37
+      },
+      "1500": {
+        "inanicion_pct": 11.02,
+        "depredacion_pct": 13.1,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 75.88
+      },
+      "2000": {
+        "inanicion_pct": 13.8,
+        "depredacion_pct": 19.67,
+        "senescencia_pct": 66.54,
+        "supervivencia_S_t_pct": 0.0
+      }
+    },
+    "Optimista Sereno": {
+      "500": {
+        "inanicion_pct": 2.5,
+        "depredacion_pct": 3.48,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 94.02
+      },
+      "1000": {
+        "inanicion_pct": 6.2,
+        "depredacion_pct": 7.9,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 85.91
+      },
+      "1500": {
+        "inanicion_pct": 9.28,
+        "depredacion_pct": 11.32,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 79.4
+      },
+      "2000": {
+        "inanicion_pct": 11.87,
+        "depredacion_pct": 17.57,
+        "senescencia_pct": 70.56,
+        "supervivencia_S_t_pct": 0.0
+      }
+    },
+    "Entusiasta Dopaminérgico": {
+      "500": {
+        "inanicion_pct": 1.93,
+        "depredacion_pct": 3.52,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 94.55
+      },
+      "1000": {
+        "inanicion_pct": 5.08,
+        "depredacion_pct": 7.51,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 87.41
+      },
+      "1500": {
+        "inanicion_pct": 8.37,
+        "depredacion_pct": 10.63,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 81.0
+      },
+      "2000": {
+        "inanicion_pct": 10.61,
+        "depredacion_pct": 17.57,
+        "senescencia_pct": 71.82,
+        "supervivencia_S_t_pct": 0.0
+      }
+    },
+    "Colérico Reactivo": {
+      "500": {
+        "inanicion_pct": 1.99,
+        "depredacion_pct": 2.88,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 95.13
+      },
+      "1000": {
+        "inanicion_pct": 5.47,
+        "depredacion_pct": 6.67,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 87.85
+      },
+      "1500": {
+        "inanicion_pct": 8.54,
+        "depredacion_pct": 9.99,
+        "senescencia_pct": 0.0,
+        "supervivencia_S_t_pct": 81.47
+      },
+      "2000": {
+        "inanicion_pct": 10.95,
+        "depredacion_pct": 16.25,
+        "senescencia_pct": 72.8,
+        "supervivencia_S_t_pct": 0.0
+      }
+    }
+  },
+  "intra_archetype_continuous_oxi": {
+    "archetype_mean_theta_oxi": {
+      "Estoico Desapegado": 0.2197,
+      "Melancólico Empático": 0.8617,
+      "Optimista Sereno": 0.7419,
+      "Entusiasta Dopaminérgico": 0.6023,
+      "Colérico Reactivo": 0.401
+    },
+    "within_archetype_per_010_theta_oxi": {
+      "feed_per_1k_beta": 0.0,
+      "feed_per_1k_se_cluster": 0.0,
+      "feed_per_1k_z": NaN,
+      "feed_per_1k_p": NaN,
+      "exposure_pp_beta": 0.6589,
+      "exposure_pp_se_cluster": 0.3221,
+      "exposure_pp_z": 2.046,
+      "exposure_pp_p": 0.040792013916189064,
+      "inanicion_pp_beta": 1.6744,
+      "inanicion_pp_se_cluster": 0.9913,
+      "inanicion_pp_z": 1.689,
+      "inanicion_pp_p": 0.09121681074950205
+    },
+    "standardized_7d_continuous_regressions": {
+      "oxi": {
+        "feed_per_1k_beta_SD": 0.0,
+        "feed_se_cluster": 0.0,
+        "feed_p_holm": 1.0,
+        "exposure_pp_beta_SD": 1.518,
+        "exposure_se_cluster": 0.1982,
+        "exposure_p_holm": 1.0,
+        "inanicion_pp_beta_SD": 0.7919,
+        "inanicion_se_cluster": 0.527,
+        "inanicion_p_holm": 1.0,
+        "depredacion_pp_beta_SD": 1.4672,
+        "depredacion_se_cluster": 0.5941,
+        "depredacion_p_holm": 0.378509
+      },
+      "dop": {
+        "feed_per_1k_beta_SD": 0.0,
+        "feed_se_cluster": 0.0,
+        "feed_p_holm": 1.0,
+        "exposure_pp_beta_SD": 0.4201,
+        "exposure_se_cluster": 0.2916,
+        "exposure_p_holm": 1.0,
+        "inanicion_pp_beta_SD": -0.6141,
+        "inanicion_se_cluster": 0.932,
+        "inanicion_p_holm": 1.0,
+        "depredacion_pp_beta_SD": 0.3352,
+        "depredacion_se_cluster": 1.0671,
+        "depredacion_p_holm": 1.0
+      },
+      "ira": {
+        "feed_per_1k_beta_SD": 0.0,
+        "feed_se_cluster": 0.0,
+        "feed_p_holm": 1.0,
+        "exposure_pp_beta_SD": 0.1678,
+        "exposure_se_cluster": 0.2287,
+        "exposure_p_holm": 1.0,
+        "inanicion_pp_beta_SD": 0.3157,
+        "inanicion_se_cluster": 0.7108,
+        "inanicion_p_holm": 1.0,
+        "depredacion_pp_beta_SD": -0.5712,
+        "depredacion_se_cluster": 0.7372,
+        "depredacion_p_holm": 1.0
+      },
+      "tris": {
+        "feed_per_1k_beta_SD": 0.0,
+        "feed_se_cluster": 0.0,
+        "feed_p_holm": 1.0,
+        "exposure_pp_beta_SD": -0.0291,
+        "exposure_se_cluster": 0.6269,
+        "exposure_p_holm": 1.0,
+        "inanicion_pp_beta_SD": 0.6397,
+        "inanicion_se_cluster": 1.811,
+        "inanicion_p_holm": 1.0,
+        "depredacion_pp_beta_SD": -1.602,
+        "depredacion_se_cluster": 2.0185,
+        "depredacion_p_holm": 1.0
+      },
+      "res": {
+        "feed_per_1k_beta_SD": 0.0,
+        "feed_se_cluster": 0.0,
+        "feed_p_holm": 1.0,
+        "exposure_pp_beta_SD": 0.1985,
+        "exposure_se_cluster": 0.4504,
+        "exposure_p_holm": 1.0,
+        "inanicion_pp_beta_SD": 0.6769,
+        "inanicion_se_cluster": 1.0806,
+        "inanicion_p_holm": 1.0,
+        "depredacion_pp_beta_SD": -1.9386,
+        "depredacion_se_cluster": 1.3275,
+        "depredacion_p_holm": 1.0
+      },
+      "cur": {
+        "feed_per_1k_beta_SD": 0.0,
+        "feed_se_cluster": 0.0,
+        "feed_p_holm": 1.0,
+        "exposure_pp_beta_SD": 0.0012,
+        "exposure_se_cluster": 0.2597,
+        "exposure_p_holm": 1.0,
+        "inanicion_pp_beta_SD": -0.3883,
+        "inanicion_se_cluster": 0.8773,
+        "inanicion_p_holm": 1.0,
+        "depredacion_pp_beta_SD": -0.3888,
+        "depredacion_se_cluster": 0.9811,
+        "depredacion_p_holm": 1.0
+      },
+      "cort_base": {
+        "feed_per_1k_beta_SD": 0.0,
+        "feed_se_cluster": 0.0,
+        "feed_p_holm": 1.0,
+        "exposure_pp_beta_SD": 0.1786,
+        "exposure_se_cluster": 0.4299,
+        "exposure_p_holm": 1.0,
+        "inanicion_pp_beta_SD": -0.139,
+        "inanicion_se_cluster": 1.3924,
+        "inanicion_p_holm": 1.0,
+        "depredacion_pp_beta_SD": -0.0344,
+        "depredacion_se_cluster": 1.4681,
+        "depredacion_p_holm": 1.0
+      }
+    }
+  },
+  "bite_wear_descriptives_by_archetype": {
+    "Estoico Desapegado": {
+      "n": 4800,
+      "mean_bites": 6.006,
+      "sd_bites": 4.639,
+      "median_bites": 6.0,
+      "iqr_bites": [
+        0.0,
+        9.0
+      ],
+      "mean_cycles_lost": 48.05
+    },
+    "Melancólico Empático": {
+      "n": 5328,
+      "mean_bites": 6.773,
+      "sd_bites": 5.915,
+      "median_bites": 7.0,
+      "iqr_bites": [
+        0.0,
+        11.0
+      ],
+      "mean_cycles_lost": 54.19
+    },
+    "Optimista Sereno": {
+      "n": 5520,
+      "mean_bites": 6.884,
+      "sd_bites": 5.633,
+      "median_bites": 7.0,
+      "iqr_bites": [
+        0.0,
+        11.0
+      ],
+      "mean_cycles_lost": 55.07
+    },
+    "Entusiasta Dopaminérgico": {
+      "n": 5448,
+      "mean_bites": 6.883,
+      "sd_bites": 5.5,
+      "median_bites": 7.0,
+      "iqr_bites": [
+        0.0,
+        11.0
+      ],
+      "mean_cycles_lost": 55.06
+    },
+    "Colérico Reactivo": {
+      "n": 4824,
+      "mean_bites": 6.667,
+      "sd_bites": 5.17,
+      "median_bites": 7.0,
+      "iqr_bites": [
+        0.0,
+        10.0
+      ],
+      "mean_cycles_lost": 53.34
+    }
+  },
+  "bite_wear_sensitivity_grid": {
+    "umbral_1_mordiscos_8_ciclos": {
+      "threshold_bites": 1,
+      "threshold_cycles_lost": 8,
+      "total_senescencia_desgaste_n": 18379,
+      "total_senescencia_desgaste_pct": 70.91,
+      "total_senescencia_pura_n": 20,
+      "total_senescencia_pura_pct": 0.08,
+      "melancolico_vs_estoico_CSHR_desgaste": 1.5658,
+      "melancolico_vs_estoico_IC95": [
+        1.4856,
+        1.6502
+      ],
+      "melancolico_vs_estoico_z_cluster": 16.723,
+      "melancolico_vs_estoico_p_cluster": 8.898727157002972e-63,
+      "by_archetype": {
+        "Estoico Desapegado": {
+          "n_total": 4800,
+          "inanicion_n": 537,
+          "inanicion_pct": 11.19,
+          "depredacion_aguda_n": 729,
+          "depredacion_aguda_pct": 15.19,
+          "senescencia_desgaste_n": 3528,
+          "senescencia_desgaste_pct": 73.5,
+          "senescencia_pura_n": 6,
+          "senescencia_pura_pct": 0.12
+        },
+        "Melancólico Empático": {
+          "n_total": 5328,
+          "inanicion_n": 735,
+          "inanicion_pct": 13.8,
+          "depredacion_aguda_n": 1048,
+          "depredacion_aguda_pct": 19.67,
+          "senescencia_desgaste_n": 3539,
+          "senescencia_desgaste_pct": 66.42,
+          "senescencia_pura_n": 6,
+          "senescencia_pura_pct": 0.11
+        },
+        "Optimista Sereno": {
+          "n_total": 5520,
+          "inanicion_n": 655,
+          "inanicion_pct": 11.87,
+          "depredacion_aguda_n": 970,
+          "depredacion_aguda_pct": 17.57,
+          "senescencia_desgaste_n": 3892,
+          "senescencia_desgaste_pct": 70.51,
+          "senescencia_pura_n": 3,
+          "senescencia_pura_pct": 0.05
+        },
+        "Entusiasta Dopaminérgico": {
+          "n_total": 5448,
+          "inanicion_n": 578,
+          "inanicion_pct": 10.61,
+          "depredacion_aguda_n": 957,
+          "depredacion_aguda_pct": 17.57,
+          "senescencia_desgaste_n": 3912,
+          "senescencia_desgaste_pct": 71.81,
+          "senescencia_pura_n": 1,
+          "senescencia_pura_pct": 0.02
+        },
+        "Colérico Reactivo": {
+          "n_total": 4824,
+          "inanicion_n": 528,
+          "inanicion_pct": 10.95,
+          "depredacion_aguda_n": 784,
+          "depredacion_aguda_pct": 16.25,
+          "senescencia_desgaste_n": 3508,
+          "senescencia_desgaste_pct": 72.72,
+          "senescencia_pura_n": 4,
+          "senescencia_pura_pct": 0.08
+        }
+      }
+    },
+    "umbral_5_mordiscos_40_ciclos": {
+      "threshold_bites": 5,
+      "threshold_cycles_lost": 40,
+      "total_senescencia_desgaste_n": 16568,
+      "total_senescencia_desgaste_pct": 63.92,
+      "total_senescencia_pura_n": 1831,
+      "total_senescencia_pura_pct": 7.06,
+      "melancolico_vs_estoico_CSHR_desgaste": 1.635,
+      "melancolico_vs_estoico_IC95": [
+        1.5473,
+        1.7277
+      ],
+      "melancolico_vs_estoico_z_cluster": 17.473,
+      "melancolico_vs_estoico_p_cluster": 2.2833011297833993e-68,
+      "by_archetype": {
+        "Estoico Desapegado": {
+          "n_total": 4800,
+          "inanicion_n": 537,
+          "inanicion_pct": 11.19,
+          "depredacion_aguda_n": 729,
+          "depredacion_aguda_pct": 15.19,
+          "senescencia_desgaste_n": 3067,
+          "senescencia_desgaste_pct": 63.9,
+          "senescencia_pura_n": 467,
+          "senescencia_pura_pct": 9.73
+        },
+        "Melancólico Empático": {
+          "n_total": 5328,
+          "inanicion_n": 735,
+          "inanicion_pct": 13.8,
+          "depredacion_aguda_n": 1048,
+          "depredacion_aguda_pct": 19.67,
+          "senescencia_desgaste_n": 3265,
+          "senescencia_desgaste_pct": 61.28,
+          "senescencia_pura_n": 280,
+          "senescencia_pura_pct": 5.26
+        },
+        "Optimista Sereno": {
+          "n_total": 5520,
+          "inanicion_n": 655,
+          "inanicion_pct": 11.87,
+          "depredacion_aguda_n": 970,
+          "depredacion_aguda_pct": 17.57,
+          "senescencia_desgaste_n": 3509,
+          "senescencia_desgaste_pct": 63.57,
+          "senescencia_pura_n": 386,
+          "senescencia_pura_pct": 6.99
+        },
+        "Entusiasta Dopaminérgico": {
+          "n_total": 5448,
+          "inanicion_n": 578,
+          "inanicion_pct": 10.61,
+          "depredacion_aguda_n": 957,
+          "depredacion_aguda_pct": 17.57,
+          "senescencia_desgaste_n": 3555,
+          "senescencia_desgaste_pct": 65.25,
+          "senescencia_pura_n": 358,
+          "senescencia_pura_pct": 6.57
+        },
+        "Colérico Reactivo": {
+          "n_total": 4824,
+          "inanicion_n": 528,
+          "inanicion_pct": 10.95,
+          "depredacion_aguda_n": 784,
+          "depredacion_aguda_pct": 16.25,
+          "senescencia_desgaste_n": 3172,
+          "senescencia_desgaste_pct": 65.75,
+          "senescencia_pura_n": 340,
+          "senescencia_pura_pct": 7.05
+        }
+      }
+    },
+    "umbral_10_mordiscos_80_ciclos": {
+      "threshold_bites": 10,
+      "threshold_cycles_lost": 80,
+      "total_senescencia_desgaste_n": 8396,
+      "total_senescencia_desgaste_pct": 32.39,
+      "total_senescencia_pura_n": 10003,
+      "total_senescencia_pura_pct": 38.59,
+      "melancolico_vs_estoico_CSHR_desgaste": 2.239,
+      "melancolico_vs_estoico_IC95": [
+        2.0554,
+        2.4389
+      ],
+      "melancolico_vs_estoico_z_cluster": 18.47,
+      "melancolico_vs_estoico_p_cluster": 3.5925944966690316e-76,
+      "by_archetype": {
+        "Estoico Desapegado": {
+          "n_total": 4800,
+          "inanicion_n": 537,
+          "inanicion_pct": 11.19,
+          "depredacion_aguda_n": 729,
+          "depredacion_aguda_pct": 15.19,
+          "senescencia_desgaste_n": 1132,
+          "senescencia_desgaste_pct": 23.58,
+          "senescencia_pura_n": 2402,
+          "senescencia_pura_pct": 50.04
+        },
+        "Melancólico Empático": {
+          "n_total": 5328,
+          "inanicion_n": 735,
+          "inanicion_pct": 13.8,
+          "depredacion_aguda_n": 1048,
+          "depredacion_aguda_pct": 19.67,
+          "senescencia_desgaste_n": 1924,
+          "senescencia_desgaste_pct": 36.11,
+          "senescencia_pura_n": 1621,
+          "senescencia_pura_pct": 30.42
+        },
+        "Optimista Sereno": {
+          "n_total": 5520,
+          "inanicion_n": 655,
+          "inanicion_pct": 11.87,
+          "depredacion_aguda_n": 970,
+          "depredacion_aguda_pct": 17.57,
+          "senescencia_desgaste_n": 1952,
+          "senescencia_desgaste_pct": 35.36,
+          "senescencia_pura_n": 1943,
+          "senescencia_pura_pct": 35.2
+        },
+        "Entusiasta Dopaminérgico": {
+          "n_total": 5448,
+          "inanicion_n": 578,
+          "inanicion_pct": 10.61,
+          "depredacion_aguda_n": 957,
+          "depredacion_aguda_pct": 17.57,
+          "senescencia_desgaste_n": 1859,
+          "senescencia_desgaste_pct": 34.12,
+          "senescencia_pura_n": 2054,
+          "senescencia_pura_pct": 37.7
+        },
+        "Colérico Reactivo": {
+          "n_total": 4824,
+          "inanicion_n": 528,
+          "inanicion_pct": 10.95,
+          "depredacion_aguda_n": 784,
+          "depredacion_aguda_pct": 16.25,
+          "senescencia_desgaste_n": 1529,
+          "senescencia_desgaste_pct": 31.7,
+          "senescencia_pura_n": 1983,
+          "senescencia_pura_pct": 41.11
+        }
+      }
+    },
+    "umbral_15_mordiscos_120_ciclos": {
+      "threshold_bites": 15,
+      "threshold_cycles_lost": 120,
+      "total_senescencia_desgaste_n": 1960,
+      "total_senescencia_desgaste_pct": 7.56,
+      "total_senescencia_pura_n": 16439,
+      "total_senescencia_pura_pct": 63.42,
+      "melancolico_vs_estoico_CSHR_desgaste": 3.5647,
+      "melancolico_vs_estoico_IC95": [
+        2.9235,
+        4.3464
+      ],
+      "melancolico_vs_estoico_z_cluster": 12.564,
+      "melancolico_vs_estoico_p_cluster": 3.319275752140666e-36,
+      "by_archetype": {
+        "Estoico Desapegado": {
+          "n_total": 4800,
+          "inanicion_n": 537,
+          "inanicion_pct": 11.19,
+          "depredacion_aguda_n": 729,
+          "depredacion_aguda_pct": 15.19,
+          "senescencia_desgaste_n": 165,
+          "senescencia_desgaste_pct": 3.44,
+          "senescencia_pura_n": 3369,
+          "senescencia_pura_pct": 70.19
+        },
+        "Melancólico Empático": {
+          "n_total": 5328,
+          "inanicion_n": 735,
+          "inanicion_pct": 13.8,
+          "depredacion_aguda_n": 1048,
+          "depredacion_aguda_pct": 19.67,
+          "senescencia_desgaste_n": 524,
+          "senescencia_desgaste_pct": 9.83,
+          "senescencia_pura_n": 3021,
+          "senescencia_pura_pct": 56.7
+        },
+        "Optimista Sereno": {
+          "n_total": 5520,
+          "inanicion_n": 655,
+          "inanicion_pct": 11.87,
+          "depredacion_aguda_n": 970,
+          "depredacion_aguda_pct": 17.57,
+          "senescencia_desgaste_n": 515,
+          "senescencia_desgaste_pct": 9.33,
+          "senescencia_pura_n": 3380,
+          "senescencia_pura_pct": 61.23
+        },
+        "Entusiasta Dopaminérgico": {
+          "n_total": 5448,
+          "inanicion_n": 578,
+          "inanicion_pct": 10.61,
+          "depredacion_aguda_n": 957,
+          "depredacion_aguda_pct": 17.57,
+          "senescencia_desgaste_n": 453,
+          "senescencia_desgaste_pct": 8.31,
+          "senescencia_pura_n": 3460,
+          "senescencia_pura_pct": 63.51
+        },
+        "Colérico Reactivo": {
+          "n_total": 4824,
+          "inanicion_n": 528,
+          "inanicion_pct": 10.95,
+          "depredacion_aguda_n": 784,
+          "depredacion_aguda_pct": 16.25,
+          "senescencia_desgaste_n": 303,
+          "senescencia_desgaste_pct": 6.28,
+          "senescencia_pura_n": 3209,
+          "senescencia_pura_pct": 66.52
+        }
+      }
+    },
+    "umbral_20_mordiscos_160_ciclos": {
+      "threshold_bites": 20,
+      "threshold_cycles_lost": 160,
+      "total_senescencia_desgaste_n": 231,
+      "total_senescencia_desgaste_pct": 0.89,
+      "total_senescencia_pura_n": 18168,
+      "total_senescencia_pura_pct": 70.09,
+      "melancolico_vs_estoico_CSHR_desgaste": 7.3215,
+      "melancolico_vs_estoico_IC95": [
+        4.1863,
+        12.8048
+      ],
+      "melancolico_vs_estoico_z_cluster": 6.98,
+      "melancolico_vs_estoico_p_cluster": 2.9463518165909826e-12,
+      "by_archetype": {
+        "Estoico Desapegado": {
+          "n_total": 4800,
+          "inanicion_n": 537,
+          "inanicion_pct": 11.19,
+          "depredacion_aguda_n": 729,
+          "depredacion_aguda_pct": 15.19,
+          "senescencia_desgaste_n": 12,
+          "senescencia_desgaste_pct": 0.25,
+          "senescencia_pura_n": 3522,
+          "senescencia_pura_pct": 73.38
+        },
+        "Melancólico Empático": {
+          "n_total": 5328,
+          "inanicion_n": 735,
+          "inanicion_pct": 13.8,
+          "depredacion_aguda_n": 1048,
+          "depredacion_aguda_pct": 19.67,
+          "senescencia_desgaste_n": 84,
+          "senescencia_desgaste_pct": 1.58,
+          "senescencia_pura_n": 3461,
+          "senescencia_pura_pct": 64.96
+        },
+        "Optimista Sereno": {
+          "n_total": 5520,
+          "inanicion_n": 655,
+          "inanicion_pct": 11.87,
+          "depredacion_aguda_n": 970,
+          "depredacion_aguda_pct": 17.57,
+          "senescencia_desgaste_n": 55,
+          "senescencia_desgaste_pct": 1.0,
+          "senescencia_pura_n": 3840,
+          "senescencia_pura_pct": 69.57
+        },
+        "Entusiasta Dopaminérgico": {
+          "n_total": 5448,
+          "inanicion_n": 578,
+          "inanicion_pct": 10.61,
+          "depredacion_aguda_n": 957,
+          "depredacion_aguda_pct": 17.57,
+          "senescencia_desgaste_n": 55,
+          "senescencia_desgaste_pct": 1.01,
+          "senescencia_pura_n": 3858,
+          "senescencia_pura_pct": 70.81
+        },
+        "Colérico Reactivo": {
+          "n_total": 4824,
+          "inanicion_n": 528,
+          "inanicion_pct": 10.95,
+          "depredacion_aguda_n": 784,
+          "depredacion_aguda_pct": 16.25,
+          "senescencia_desgaste_n": 25,
+          "senescencia_desgaste_pct": 0.52,
+          "senescencia_pura_n": 3487,
+          "senescencia_pura_pct": 72.28
+        }
+      }
+    }
+  }
+}
