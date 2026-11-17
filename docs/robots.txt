@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Allow: /pdf/
+
+Sitemap: https://davidsnm.github.io/ascendant-synthetic-consciousness/sitemap.xml
