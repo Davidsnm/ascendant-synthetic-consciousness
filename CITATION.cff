@@ -4,13 +4,14 @@ authors:
   - family-names: "San Nicolás Montero"
     given-names: "David"
     alias: "David San Nicolás"
+    orcid: "https://orcid.org/0009-0000-9977-007X"
 title: "Grounded Computational Analogs of Synthetic Consciousness: Epistemic Closure, Thermodynamic Homeostasis, and Biphasic Prospective Daydreaming"
-version: "2.0.0"
-doi: 10.5281/zenodo.23626133
-date-released: 2026-10-27
-url: "https://zenodo.org/records/23626133"
-repository-code: "https://github.com/davidsannicolas/ascendant-synthetic-consciousness"
-license: "CC-BY-4.0"
+version: "4.0.0"
+doi: 10.5281/zenodo.23990811
+date-released: 2026-11-06
+url: "https://zenodo.org/records/23990811"
+repository-code: "https://github.com/Davidsnm/ascendant-synthetic-consciousness"
+license: "CC-BY-NC-4.0"
 keywords:
   - "synthetic consciousness"
   - "symbol grounding"
