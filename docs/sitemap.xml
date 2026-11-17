@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://davidsnm.github.io/ascendant-synthetic-consciousness/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- Landing Pages Computacionales -->
+  <url>
+    <loc>https://davidsnm.github.io/ascendant-synthetic-consciousness/paper-master.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://davidsnm.github.io/ascendant-synthetic-consciousness/proyecto-ascendant-es.html</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- Landing Pages Filosóficas -->
+  <url>
+    <loc>https://davidsnm.github.io/ascendant-synthetic-consciousness/symbiotic-consciousness.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://davidsnm.github.io/ascendant-synthetic-consciousness/consciencia-simbiotica.html</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <!-- PDFs Directos -->
+  <url>
+    <loc>https://davidsnm.github.io/ascendant-synthetic-consciousness/pdf/Proyecto_Ascendant_Master_Scientific_Paper_David_San_Nicolas.pdf</loc>
+    <lastmod>2026-11-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://davidsnm.github.io/ascendant-synthetic-consciousness/pdf/Proyecto_Ascendant_Master_Scientific_Paper_David_San_Nicolas_ES.pdf</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://davidsnm.github.io/ascendant-synthetic-consciousness/pdf/THEORETICAL_PHILOSOPHICAL_ANNEX_SYMBIOTIC_CONSCIOUSNESS.pdf</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://davidsnm.github.io/ascendant-synthetic-consciousness/pdf/ANEXO_TEORICO_FILOSOFICO_CONSCIENCIA_SIMBIOTICA.pdf</loc>
+    <lastmod>2026-11-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
