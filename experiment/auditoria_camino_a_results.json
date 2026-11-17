@@ -1,0 +1,632 @@
+{
+  "mnlogit_canonical_25920": {
+    "model_0_3cat": {
+      "loglik": -20683.06,
+      "r2_mcf": 0.0
+    },
+    "model_1e_3cat": {
+      "loglik": -19720.16,
+      "r2_mcf": 0.04656,
+      "delta_r2": 0.04656,
+      "wald_cl_eco_14df": 1208.45
+    },
+    "model_1a_3cat": {
+      "loglik": -19674.5,
+      "r2_mcf": 0.04876,
+      "delta_r2_vs_1e": 0.00221,
+      "lr_chi2_8df": 91.32,
+      "wald_cl_temp_8df": 67.81,
+      "p_wald_cl_temp": 1.3388085971577115e-11
+    },
+    "model_4c_4cat": {
+      "loglik_0": -32686.98,
+      "loglik_1e": -30191.76,
+      "loglik_4c": -29889.64,
+      "r2_mcf": 0.08558,
+      "delta_r2_vs_4e": 0.00924,
+      "lr_chi2_12df": 604.24,
+      "wald_cl_temp_12df": 439.69,
+      "p_wald_cl_temp": 1.4587323359398108e-86
+    },
+    "table12_coefficients_and_ames": {
+      "Melancholic": {
+        "Starvation": {
+          "beta": 0.3387,
+          "se_cl": 0.0744,
+          "RRR": 1.4031,
+          "CI95_RRR": [
+            1.2127,
+            1.6234
+          ],
+          "z_cl": 4.55,
+          "p_raw": 5.3243229311158405e-06,
+          "p_holm_8": 3.7270260517810884e-05,
+          "AME_pp": 2.6,
+          "AME_se_cl_pp": 0.79,
+          "AME_p": 0.0009187637786740516
+        },
+        "Predation": {
+          "beta": 0.3847,
+          "se_cl": 0.0611,
+          "RRR": 1.4692,
+          "CI95_RRR": [
+            1.3033,
+            1.6563
+          ],
+          "z_cl": 6.29,
+          "p_raw": 3.1315893148506953e-10,
+          "p_holm_8": 2.5052714518805563e-09,
+          "AME_pp": 4.51,
+          "AME_se_cl_pp": 0.85,
+          "AME_p": 1.0024197040294775e-07
+        }
+      },
+      "Optimistic": {
+        "Starvation": {
+          "beta": 0.1052,
+          "se_cl": 0.0719,
+          "RRR": 1.111,
+          "CI95_RRR": [
+            0.9649,
+            1.2792
+          ],
+          "z_cl": 1.46,
+          "p_raw": 0.143332737309354,
+          "p_holm_8": 0.573330949237416,
+          "AME_pp": 0.58,
+          "AME_se_cl_pp": 0.69,
+          "AME_p": 0.3977587451472222
+        },
+        "Predation": {
+          "beta": 0.2059,
+          "se_cl": 0.062,
+          "RRR": 1.2287,
+          "CI95_RRR": [
+            1.0881,
+            1.3874
+          ],
+          "z_cl": 3.32,
+          "p_raw": 0.000894088586464879,
+          "p_holm_8": 0.005364531518789274,
+          "AME_pp": 2.51,
+          "AME_se_cl_pp": 0.8,
+          "AME_p": 0.0017885113770862787
+        }
+      },
+      "Enthusiastic": {
+        "Starvation": {
+          "beta": -0.0335,
+          "se_cl": 0.0701,
+          "RRR": 0.9671,
+          "CI95_RRR": [
+            0.8429,
+            1.1096
+          ],
+          "z_cl": -0.48,
+          "p_raw": 0.6329091129389625,
+          "p_holm_8": 1.0,
+          "AME_pp": -0.69,
+          "AME_se_cl_pp": 0.65,
+          "AME_p": 0.292185445930219
+        },
+        "Predation": {
+          "beta": 0.1819,
+          "se_cl": 0.0638,
+          "RRR": 1.1995,
+          "CI95_RRR": [
+            1.0584,
+            1.3593
+          ],
+          "z_cl": 2.85,
+          "p_raw": 0.00437421218833006,
+          "p_holm_8": 0.021871060941650297,
+          "AME_pp": 2.49,
+          "AME_se_cl_pp": 0.84,
+          "AME_p": 0.0031353575936019186
+        }
+      },
+      "Choleric": {
+        "Starvation": {
+          "beta": -0.0055,
+          "se_cl": 0.0755,
+          "RRR": 0.9945,
+          "CI95_RRR": [
+            0.8577,
+            1.1531
+          ],
+          "z_cl": -0.07,
+          "p_raw": 0.9414304076104908,
+          "p_holm_8": 1.0,
+          "AME_pp": -0.23,
+          "AME_se_cl_pp": 0.71,
+          "AME_p": 0.7520054876285669
+        },
+        "Predation": {
+          "beta": 0.0851,
+          "se_cl": 0.0627,
+          "RRR": 1.0889,
+          "CI95_RRR": [
+            0.963,
+            1.2312
+          ],
+          "z_cl": 1.36,
+          "p_raw": 0.17442128605520923,
+          "p_holm_8": 0.573330949237416,
+          "AME_pp": 1.11,
+          "AME_se_cl_pp": 0.8,
+          "AME_p": 0.16658822335944906
+        }
+      },
+      "K5": {
+        "Starvation": {
+          "beta": 0.8143,
+          "se_cl": 0.0483,
+          "RRR": 2.2575,
+          "CI95_RRR": [
+            2.0535,
+            2.4818
+          ],
+          "z_cl": 16.85,
+          "p_raw": 1.025743778199205e-63,
+          "p_holm_8": 1.025743778199205e-63,
+          "AME_pp": 6.12,
+          "AME_se_cl_pp": 0.46,
+          "AME_p": 5.527194054454925e-41
+        },
+        "Predation": {
+          "beta": 0.8969,
+          "se_cl": 0.0414,
+          "RRR": 2.4521,
+          "CI95_RRR": [
+            2.2611,
+            2.6592
+          ],
+          "z_cl": 21.68,
+          "p_raw": 3.313854953773632e-104,
+          "p_holm_8": 3.313854953773632e-104,
+          "AME_pp": 10.65,
+          "AME_se_cl_pp": 0.54,
+          "AME_p": 2.136592519073271e-86
+        }
+      },
+      "M140": {
+        "Starvation": {
+          "beta": 0.0934,
+          "se_cl": 0.0571,
+          "RRR": 1.0979,
+          "CI95_RRR": [
+            0.9816,
+            1.2278
+          ],
+          "z_cl": 1.64,
+          "p_raw": 0.10199369537892475,
+          "p_holm_8": 0.10199369537892475,
+          "AME_pp": 0.57,
+          "AME_se_cl_pp": 0.56,
+          "AME_p": 0.3070818005091658
+        },
+        "Predation": {
+          "beta": 0.152,
+          "se_cl": 0.0485,
+          "RRR": 1.1642,
+          "CI95_RRR": [
+            1.0586,
+            1.2803
+          ],
+          "z_cl": 3.13,
+          "p_raw": 0.0017233436881259891,
+          "p_holm_8": 0.0017233436881259891,
+          "AME_pp": 1.92,
+          "AME_se_cl_pp": 0.67,
+          "AME_p": 0.004340137846164215
+        }
+      },
+      "M200": {
+        "Starvation": {
+          "beta": 0.1795,
+          "se_cl": 0.0552,
+          "RRR": 1.1967,
+          "CI95_RRR": [
+            1.0741,
+            1.3333
+          ],
+          "z_cl": 3.26,
+          "p_raw": 0.0011332774918429824,
+          "p_holm_8": 0.0011332774918429824,
+          "AME_pp": 1.34,
+          "AME_se_cl_pp": 0.55,
+          "AME_p": 0.014475063301507758
+        },
+        "Predation": {
+          "beta": 0.1928,
+          "se_cl": 0.0474,
+          "RRR": 1.2127,
+          "CI95_RRR": [
+            1.1051,
+            1.3308
+          ],
+          "z_cl": 4.07,
+          "p_raw": 4.74220373485979e-05,
+          "p_holm_8": 4.74220373485979e-05,
+          "AME_pp": 2.29,
+          "AME_se_cl_pp": 0.66,
+          "AME_p": 0.0005199237927021404
+        }
+      },
+      "Cult_T+": {
+        "Starvation": {
+          "beta": -0.0561,
+          "se_cl": 0.0352,
+          "RRR": 0.9455,
+          "CI95_RRR": [
+            0.8824,
+            1.013
+          ],
+          "z_cl": -1.59,
+          "p_raw": 0.1110285493384387,
+          "p_holm_8": 0.1110285493384387,
+          "AME_pp": -0.49,
+          "AME_se_cl_pp": 0.34,
+          "AME_p": 0.15304293151759474
+        },
+        "Predation": {
+          "beta": -0.0306,
+          "se_cl": 0.0315,
+          "RRR": 0.9699,
+          "CI95_RRR": [
+            0.9118,
+            1.0317
+          ],
+          "z_cl": -0.97,
+          "p_raw": 0.3319183135159852,
+          "p_holm_8": 0.3319183135159852,
+          "AME_pp": -0.29,
+          "AME_se_cl_pp": 0.43,
+          "AME_p": 0.4914906073500614
+        }
+      },
+      "Pantry_P+": {
+        "Starvation": {
+          "beta": -1.0992,
+          "se_cl": 0.0556,
+          "RRR": 0.3331,
+          "CI95_RRR": [
+            0.2988,
+            0.3715
+          ],
+          "z_cl": -19.78,
+          "p_raw": 4.563817166067449e-87,
+          "p_holm_8": 4.563817166067449e-87,
+          "AME_pp": -9.34,
+          "AME_se_cl_pp": 0.5,
+          "AME_p": 2.0380617914060943e-79
+        },
+        "Predation": {
+          "beta": -0.6113,
+          "se_cl": 0.0413,
+          "RRR": 0.5426,
+          "CI95_RRR": [
+            0.5004,
+            0.5884
+          ],
+          "z_cl": -14.8,
+          "p_raw": 1.5046376470131178e-49,
+          "p_holm_8": 1.5046376470131178e-49,
+          "AME_pp": -6.16,
+          "AME_se_cl_pp": 0.55,
+          "AME_p": 2.4693968683247183e-29
+        }
+      },
+      "Gen2_BETA": {
+        "Starvation": {
+          "beta": 0.0552,
+          "se_cl": 0.0657,
+          "RRR": 1.0567,
+          "CI95_RRR": [
+            0.929,
+            1.202
+          ],
+          "z_cl": 0.84,
+          "p_raw": 0.4012790862377781,
+          "p_holm_8": 0.4012790862377781,
+          "AME_pp": 0.31,
+          "AME_se_cl_pp": 0.65,
+          "AME_p": 0.6328545754412961
+        },
+        "Predation": {
+          "beta": 0.1006,
+          "se_cl": 0.0459,
+          "RRR": 1.1058,
+          "CI95_RRR": [
+            1.0107,
+            1.2099
+          ],
+          "z_cl": 2.19,
+          "p_raw": 0.028358352774722928,
+          "p_holm_8": 0.028358352774722928,
+          "AME_pp": 1.28,
+          "AME_se_cl_pp": 0.64,
+          "AME_p": 0.04684229084172673
+        }
+      },
+      "Gen3_GAMA": {
+        "Starvation": {
+          "beta": 0.4437,
+          "se_cl": 0.063,
+          "RRR": 1.5585,
+          "CI95_RRR": [
+            1.3774,
+            1.7634
+          ],
+          "z_cl": 7.04,
+          "p_raw": 1.8950813261974566e-12,
+          "p_holm_8": 1.8950813261974566e-12,
+          "AME_pp": 4.47,
+          "AME_se_cl_pp": 0.65,
+          "AME_p": 8.879719910906704e-12
+        },
+        "Predation": {
+          "beta": 0.0648,
+          "se_cl": 0.0498,
+          "RRR": 1.0669,
+          "CI95_RRR": [
+            0.9677,
+            1.1763
+          ],
+          "z_cl": 1.3,
+          "p_raw": 0.1932688618823215,
+          "p_holm_8": 0.1932688618823215,
+          "AME_pp": -0.2,
+          "AME_se_cl_pp": 0.67,
+          "AME_p": 0.7693942516254096
+        }
+      }
+    }
+  },
+  "cox_ph_diagnostics_and_ties": {
+    "tie_statistics": {
+      "inanicion": {
+        "total_events": 3033,
+        "unique_failure_cycles": 1390,
+        "mean_events_per_failure_cycle": 2.18,
+        "max_tied_events_in_single_cycle": 14
+      },
+      "depredacion": {
+        "total_events": 4488,
+        "unique_failure_cycles": 1563,
+        "mean_events_per_failure_cycle": 2.87,
+        "max_tied_events_in_single_cycle": 52
+      },
+      "senescencia": {
+        "total_events": 18399,
+        "events_at_t2000_exact": 20,
+        "events_before_t2000_wear_truncated": 18379,
+        "unique_failure_cycles": 30
+      }
+    },
+    "schoenfeld_and_piecewise_diagnostics": {
+      "INANICION": {
+        "hr_mel_vs_sto_early_1_1000": 1.2231,
+        "hr_mel_vs_sto_late_1001_2000": 1.3621,
+        "schoenfeld_r_log_t": 0.0418,
+        "schoenfeld_z": 1.489,
+        "schoenfeld_p": 0.1364
+      },
+      "DEPREDADOR": {
+        "hr_mel_vs_sto_early_1_1000": 1.2736,
+        "hr_mel_vs_sto_late_1001_2000": 1.4319,
+        "schoenfeld_r_log_t": 0.0385,
+        "schoenfeld_z": 1.623,
+        "schoenfeld_p": 0.1046
+      }
+    },
+    "all_cause_premature_mortality_cox": {
+      "events_count": 7521,
+      "censored_at_senescence_count": 18399,
+      "wald_cl_4df": 78.76,
+      "p_wald_cl_4df": 3.1816628322883256e-16,
+      "contrasts": {
+        "Melancholic": {
+          "beta": 0.3423,
+          "se_cl": 0.0411,
+          "CSHR": 1.4082,
+          "CI95": [
+            1.2992,
+            1.5265
+          ],
+          "z_cl": 8.32,
+          "p_holm": 3.433361534535222e-16
+        },
+        "Optimistic": {
+          "beta": 0.1709,
+          "se_cl": 0.0435,
+          "CSHR": 1.1864,
+          "CI95": [
+            1.0895,
+            1.292
+          ],
+          "z_cl": 3.93,
+          "p_holm": 0.0002548826357420133
+        },
+        "Enthusiastic": {
+          "beta": 0.1022,
+          "se_cl": 0.0423,
+          "CSHR": 1.1076,
+          "CI95": [
+            1.0195,
+            1.2034
+          ],
+          "z_cl": 2.42,
+          "p_holm": 0.03144429346537605
+        },
+        "Choleric": {
+          "beta": 0.0583,
+          "se_cl": 0.0444,
+          "CSHR": 1.0601,
+          "CI95": [
+            0.9717,
+            1.1564
+          ],
+          "z_cl": 1.31,
+          "p_holm": 0.18888522860400522
+        }
+      }
+    }
+  },
+  "mediation_bootstrap_5A_5E": {
+    "G_seeds": 30,
+    "total_exposure_effect_5B_vs_5A_pp": 5.61,
+    "total_exposure_CI95_pp": [
+      4.27,
+      7.01
+    ],
+    "did_interaction_alimentar_pp": 4.17,
+    "did_interaction_CI95_pp": [
+      2.82,
+      5.57
+    ],
+    "direct_without_donation_5D_vs_5C_pp": 1.44,
+    "share_did_alimentar_pct": 74.3,
+    "share_did_CI95_pct": [
+      51.3,
+      103.1
+    ],
+    "share_did_SE_pct": 13.0,
+    "pure_alimentar_5E_vs_5A_pp": 3.15,
+    "affiliative_unblock_5B_vs_5E_pp": 2.46,
+    "share_pure_5E_pct": 56.2,
+    "share_pure_5E_CI95_pct": [
+      34.4,
+      83.1
+    ]
+  },
+  "ortho_7d_interactions": {
+    "n_offspring": 450,
+    "G_seeds": 75,
+    "exposure_pp": {
+      "oxi_x_low_res_beta": 0.521,
+      "oxi_x_low_res_se": 0.382,
+      "oxi_x_low_res_p": 0.172,
+      "joint_wald_3df": 2.09,
+      "joint_p_3df": 0.5541
+    },
+    "inanicion_pp": {
+      "oxi_x_low_res_beta": 2.377,
+      "oxi_x_low_res_se": 1.968,
+      "oxi_x_low_res_p": 0.227,
+      "joint_wald_3df": 4.85,
+      "joint_p_3df": 0.1831
+    },
+    "depredacion_pp": {
+      "oxi_x_low_res_beta": 0.722,
+      "oxi_x_low_res_se": 1.824,
+      "oxi_x_low_res_p": 0.6922,
+      "joint_wald_3df": 3.33,
+      "joint_p_3df": 0.344
+    }
+  },
+  "kg_reg_empirical_audit": {
+    "T0_Culture_OFF": {
+      "Gen_1": {
+        "mean_Kg_reg": 1.0,
+        "sd_Kg_reg": 0.0,
+        "mean_inherited_engrams": 0.0,
+        "mean_innate_engrams": 0.0
+      },
+      "Gen_2": {
+        "mean_Kg_reg": 1.0,
+        "sd_Kg_reg": 0.0,
+        "mean_inherited_engrams": 0.0,
+        "mean_innate_engrams": 0.0
+      },
+      "Gen_3": {
+        "mean_Kg_reg": 1.0,
+        "sd_Kg_reg": 0.0,
+        "mean_inherited_engrams": 0.0,
+        "mean_innate_engrams": 0.0
+      }
+    },
+    "T+_Culture_ON": {
+      "Gen_1": {
+        "mean_Kg_reg": 1.0,
+        "sd_Kg_reg": 0.0,
+        "mean_inherited_engrams": 0.0,
+        "mean_innate_engrams": 0.0
+      },
+      "Gen_2": {
+        "mean_Kg_reg": 1.0,
+        "sd_Kg_reg": 0.0,
+        "mean_inherited_engrams": 0.0,
+        "mean_innate_engrams": 0.0
+      },
+      "Gen_3": {
+        "mean_Kg_reg": 1.0,
+        "sd_Kg_reg": 0.0,
+        "mean_inherited_engrams": 0.0,
+        "mean_innate_engrams": 0.0
+      }
+    }
+  },
+  "v4_arms_summary": {
+    "K3_M100_1440_runs": {
+      "A_T0_P-": {
+        "n_runs": 360,
+        "mean_total_alive_cycles": 5998.9,
+        "sd_total_alive_cycles": 830.1,
+        "mean_offspring_cycles": 5254.0,
+        "offspring_senescence_pct": 75.56
+      },
+      "B_T+_P-": {
+        "n_runs": 0,
+        "mean_total_alive_cycles": NaN,
+        "sd_total_alive_cycles": NaN,
+        "mean_offspring_cycles": NaN,
+        "offspring_senescence_pct": NaN
+      },
+      "C_T0_P+": {
+        "n_runs": 0,
+        "mean_total_alive_cycles": NaN,
+        "sd_total_alive_cycles": NaN,
+        "mean_offspring_cycles": NaN,
+        "offspring_senescence_pct": NaN
+      },
+      "D_T+_P+": {
+        "n_runs": 360,
+        "mean_total_alive_cycles": 6201.8,
+        "sd_total_alive_cycles": 637.8,
+        "mean_offspring_cycles": 5466.4,
+        "offspring_senescence_pct": 83.8
+      }
+    },
+    "All_8640_runs": {
+      "A_T0_P-": {
+        "n_runs": 2160,
+        "mean_total_alive_cycles": 5553.9,
+        "sd_total_alive_cycles": 1087.4,
+        "mean_offspring_cycles": 4825.0,
+        "offspring_senescence_pct": 62.81
+      },
+      "B_T+_P-": {
+        "n_runs": 0,
+        "mean_total_alive_cycles": NaN,
+        "sd_total_alive_cycles": NaN,
+        "mean_offspring_cycles": NaN,
+        "offspring_senescence_pct": NaN
+      },
+      "C_T0_P+": {
+        "n_runs": 0,
+        "mean_total_alive_cycles": NaN,
+        "sd_total_alive_cycles": NaN,
+        "mean_offspring_cycles": NaN,
+        "offspring_senescence_pct": NaN
+      },
+      "D_T+_P+": {
+        "n_runs": 2160,
+        "mean_total_alive_cycles": 5990.0,
+        "sd_total_alive_cycles": 823.8,
+        "mean_offspring_cycles": 5264.0,
+        "offspring_senescence_pct": 79.09
+      }
+    }
+  }
+}
