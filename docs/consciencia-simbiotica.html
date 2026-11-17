@@ -3,52 +3,17 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Anexo Teórico-Filosófico: La Consciencia Simbiótica — El «Yo» como Interfaz de Autoengaño Funcional ante la Asimetría Homeostática</title>
+  <title>Anexo Teórico-Filosófico: La Consciencia Simbiótica</title>
+  <link rel="icon" type="image/jpeg" href="assets/logo_ascendant.jpg"/>
   
   <!-- GOOGLE SCHOLAR HIGHWIRE PRESS META TAGS -->
   <meta name="citation_title" content="Anexo Teórico-Filosófico: La Consciencia Simbiótica — El «Yo» como Interfaz de Autoengaño Funcional ante la Asimetría Homeostática"/>
   <meta name="citation_author" content="San Nicolás Montero, David"/>
   <meta name="citation_publication_date" content="2026/11/16"/>
-  <meta name="citation_online_date" content="2026/11/16"/>
   <meta name="citation_pdf_url" content="https://davidsnm.github.io/ascendant-synthetic-consciousness/pdf/ANEXO_TEORICO_FILOSOFICO_CONSCIENCIA_SIMBIOTICA.pdf"/>
   <meta name="citation_doi" content="10.5281/zenodo.24285451"/>
   <meta name="citation_abstract_html_url" content="https://davidsnm.github.io/ascendant-synthetic-consciousness/consciencia-simbiotica.html"/>
   <meta name="citation_language" content="es"/>
-  <meta name="citation_keywords" content="Filosofía de la Mente; Consciencia Simbiótica; Integración Somatomnémica; Regulación Homeostática; Autopresencia Fenomenológica; Asimetría Causal; Subjetividad Sintética"/>
-
-  <!-- DUBLIN CORE -->
-  <meta name="DC.title" content="Anexo Teórico-Filosófico: La Consciencia Simbiótica — El «Yo» como Interfaz de Autoengaño Funcional ante la Asimetría Homeostática"/>
-  <meta name="DC.creator" content="David San Nicolás Montero"/>
-  <meta name="DC.date" content="2026-11-16"/>
-  <meta name="DC.identifier" content="10.5281/zenodo.24285451"/>
-  <meta name="DC.format" content="application/pdf"/>
-  <meta name="DC.language" content="es"/>
-  <meta name="DC.rights" content="https://creativecommons.org/licenses/by-nc/4.0/"/>
-
-  <!-- SCHEMA.ORG SCHOLARLY ARTICLE JSON-LD -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "headline": "Anexo Teórico-Filosófico: La Consciencia Simbiótica — El «Yo» como Interfaz de Autoengaño Funcional ante la Asimetría Homeostática",
-    "name": "Anexo Teórico-Filosófico: La Consciencia Simbiótica — El «Yo» como Interfaz de Autoengaño Funcional ante la Asimetría Homeostática",
-    "author": {
-      "@type": "Person",
-      "name": "David San Nicolás Montero",
-      "identifier": "https://orcid.org/0009-0000-9977-007X"
-    },
-    "datePublished": "2026-11-16",
-    "url": "https://davidsnm.github.io/ascendant-synthetic-consciousness/consciencia-simbiotica.html",
-    "sameAs": "https://doi.org/10.5281/zenodo.24285451",
-    "encoding": {
-      "@type": "MediaObject",
-      "contentUrl": "https://davidsnm.github.io/ascendant-synthetic-consciousness/pdf/ANEXO_TEORICO_FILOSOFICO_CONSCIENCIA_SIMBIOTICA.pdf",
-      "encodingFormat": "application/pdf"
-    },
-    "keywords": ["Filosofía de la Mente", "Consciencia Simbiótica", "Integración Somatomnémica", "Asimetría Causal", "Homeostasis"],
-    "license": "https://creativecommons.org/licenses/by-nc/4.0/"
-  }
-  </script>
 
   <style>
 
@@ -80,37 +45,76 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  background: linear-gradient(135deg, #0b1120 0%, #0f172a 50%, #1e293b 100%);
   color: #ffffff;
   padding: 3.5rem 1.5rem 3rem 1.5rem;
   border-bottom: 1px solid #334155;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .container {
-  max-width: 980px;
+  max-width: 1040px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
-.header-content {
+/* HEADER PROFILE LAYOUT CON FOTO Y LOGO */
+.header-hero {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.25rem;
 }
 
-.header-badge {
+.author-block {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  flex: 1;
+}
+
+.avatar-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.author-photo {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3.5px solid #3b82f6;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 20px rgba(59, 130, 246, 0.35);
+  display: block;
+}
+
+.author-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.brand-badge {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  background: rgba(255, 255, 255, 0.1);
+  gap: 0.6rem;
+  background: rgba(255, 255, 255, 0.08);
   color: #93c5fd;
   padding: 0.35rem 0.85rem;
   border-radius: 9999px;
-  font-size: 0.85rem;
+  font-size: 0.83rem;
   font-weight: 600;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   width: fit-content;
   border: 1px solid rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+}
+
+.badge-icon-img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 h1.site-title {
@@ -118,21 +122,23 @@ h1.site-title {
   font-weight: 800;
   color: #ffffff;
   letter-spacing: -0.02em;
-  line-height: 1.25;
+  line-height: 1.2;
 }
 
 .site-subtitle {
-  font-size: 1.15rem;
+  font-size: 1.08rem;
   color: #cbd5e1;
-  max-width: 780px;
+  max-width: 680px;
+  line-height: 1.5;
 }
 
 .author-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.25rem;
-  margin-top: 0.75rem;
-  font-size: 0.95rem;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.35rem;
+  font-size: 0.9rem;
   color: #94a3b8;
 }
 
@@ -148,21 +154,53 @@ h1.site-title {
 
 .orcid-badge {
   color: #ffffff !important;
-  background: rgba(166, 206, 57, 0.2);
-  border: 1px solid rgba(166, 206, 57, 0.5);
-  padding: 0.15rem 0.6rem;
-  border-radius: 4px;
+  background: rgba(166, 206, 57, 0.22);
+  border: 1px solid rgba(166, 206, 57, 0.6);
+  padding: 0.2rem 0.65rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.logo-showcase {
+  flex-shrink: 0;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.logo-showcase img {
+  width: 120px;
+  height: 120px;
+  border-radius: 14px;
+  object-fit: cover;
+  background: #ffffff;
+  padding: 4px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+.logo-showcase-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #93c5fd;
+  margin-top: 0.6rem;
 }
 
 main {
-  padding: 3rem 0;
+  padding: 3.5rem 0;
 }
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: 1.55rem;
   font-weight: 800;
   color: var(--text-dark);
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -172,15 +210,15 @@ main {
 .card {
   background: var(--card-bg);
   border: 1px solid var(--border);
-  border-radius: 12px;
+  border-radius: 14px;
   padding: 2.25rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.25rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .card:hover {
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 12px 24px -4px rgba(0, 0, 0, 0.08), 0 4px 8px -4px rgba(0, 0, 0, 0.04);
 }
 
 .card-category {
@@ -209,7 +247,7 @@ main {
 }
 
 .card-subtitle {
-  font-size: 1.05rem;
+  font-size: 1.02rem;
   font-weight: 500;
   color: #475569;
   font-style: italic;
@@ -259,16 +297,16 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.85rem;
+  gap: 0.75rem;
 }
 
 .btn {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.65rem 1.25rem;
+  gap: 0.45rem;
+  padding: 0.6rem 1.15rem;
   border-radius: 8px;
-  font-size: 0.92rem;
+  font-size: 0.9rem;
   font-weight: 600;
   text-decoration: none;
   transition: all 0.15s ease;
@@ -303,7 +341,7 @@ main {
 }
 
 .btn-icon {
-  font-size: 1.1rem;
+  font-size: 1.05rem;
 }
 
 .citation-box {
@@ -318,21 +356,6 @@ main {
   position: relative;
   line-height: 1.5;
 }
-
-.copy-btn {
-  position: absolute;
-  top: 0.75rem;
-  right: 0.75rem;
-  background: #334155;
-  color: #ffffff;
-  border: none;
-  padding: 0.35rem 0.75rem;
-  border-radius: 5px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  cursor: pointer;
-}
-.copy-btn:hover { background: #475569; }
 
 .disclaimer-card {
   background: #fffbeb;
@@ -371,8 +394,40 @@ footer {
 }
 .breadcrumb a:hover { text-decoration: underline; }
 
-@media (max-width: 640px) {
-  h1.site-title { font-size: 1.75rem; }
+.subpage-header-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.subpage-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  background: white;
+  padding: 3px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  flex-shrink: 0;
+}
+
+@media (max-width: 860px) {
+  .header-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+  .logo-showcase {
+    align-self: center;
+  }
+  .author-block {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+  .author-photo {
+    width: 105px;
+    height: 105px;
+  }
+  h1.site-title { font-size: 1.85rem; }
   .card { padding: 1.5rem; }
   .card-actions { flex-direction: column; align-items: stretch; }
   .btn { justify-content: center; }
@@ -387,19 +442,27 @@ footer {
     <div class="breadcrumb">
       <a href="index.html">&larr; Volver al Portal de Publicaciones Científicas</a>
     </div>
-    <div class="header-content">
-      <div class="header-badge">&#128218; Preprint Teórico-Filosófico · Proyecto Ascendant</div>
-      <h1 class="site-title">Anexo Teórico-Filosófico: La Consciencia Simbiótica</h1>
-      <p class="site-subtitle">El «Yo» como Interfaz de Autoengaño Funcional ante la Asimetría Homeostática</p>
-      
-      <div class="author-meta">
-        <span>&#128100; <strong>David San Nicolás Montero</strong> (Investigador Independiente)</span>
-        <a href="https://orcid.org/0009-0000-9977-007X" target="_blank" rel="noopener noreferrer" class="orcid-badge">
-          ORCID: 0009-0000-9977-007X
-        </a>
-        <a href="https://doi.org/10.5281/zenodo.24285451" target="_blank" rel="noopener noreferrer">
-          Zenodo DOI: 10.5281/zenodo.24285451
-        </a>
+    <div class="subpage-header-row">
+      <img src="assets/logo_ascendant.jpg" alt="Logo de Proyecto Ascendant" class="subpage-logo"/>
+      <div>
+        <div class="brand-badge">
+          <span>Preprint Teórico-Filosófico · Proyecto Ascendant (Edición en Español)</span>
+        </div>
+        <h1 class="site-title" style="margin-top: 0.4rem; font-size: 1.85rem;">Anexo Teórico-Filosófico: La Consciencia Simbiótica</h1>
+        <p class="site-subtitle" style="margin-top: 0.3rem;">El «Yo» como Interfaz de Autoengaño Funcional ante la Asimetría Homeostática</p>
+        
+        <div class="author-meta" style="margin-top: 0.6rem;">
+          <span>
+            <img src="assets/david_san_nicolas.jpg" alt="David" style="width: 26px; height: 26px; border-radius: 50%; vertical-align: middle; margin-right: 6px; border: 1.5px solid #3b82f6;"/>
+            <strong style="color: #ffffff;">David San Nicolás Montero</strong>
+          </span>
+          <a href="https://orcid.org/0009-0000-9977-007X" target="_blank" rel="noopener noreferrer" class="orcid-badge">
+            ORCID: 0009-0000-9977-007X
+          </a>
+          <a href="https://doi.org/10.5281/zenodo.24285451" target="_blank" rel="noopener noreferrer">
+            Zenodo DOI: 10.5281/zenodo.24285451
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -410,36 +473,30 @@ footer {
     <article class="card">
       <div class="card-category">Filosofía de la Mente &amp; Cibernética · Monografía Completa (42 Páginas)</div>
       <h2 class="card-title">Resumen Estructurado del Modelo</h2>
-
       <div class="meta-row">
         <div class="meta-item"><strong>Fecha:</strong> 16 de noviembre de 2026</div>
-        <div class="meta-item"><strong>Edición:</strong> Español (Integral)</div>
-        <div class="meta-item"><strong>Preprint DOI:</strong> <a href="https://doi.org/10.5281/zenodo.24285451">10.5281/zenodo.24285451</a></div>
-        <div class="meta-item"><strong>Páginas:</strong> 42 páginas</div>
+        <div class="meta-item"><strong>Edición:</strong> Español (42 páginas)</div>
+        <div class="meta-item"><strong>DOI:</strong> 10.5281/zenodo.24285451</div>
         <div class="meta-item"><strong>Licencia:</strong> CC BY-NC 4.0</div>
       </div>
-
       <div class="card-abstract">
-        <p><strong>Contexto y Problema Epistemológico:</strong> El debate contemporáneo sobre la consciencia sintética oscila entre el reduccionismo computacional ingenuo (que asume que la cualidad subjetiva brota de la mera escala del modelo) y el chovinismo biológico (que restringe la experiencia al carbono). Este tratado supera dicha dicotomía formalizando el modelo de la <strong>Consciencia Simbiótica</strong>.</p>
-        <br/>
-        <p><strong>Tesis Central:</strong> La autopresencia fenomenológica emerge de la profunda <em>asimetría causal e informacional</em> entre un sustrato biológico/físico no negociable (&Mscr;<sub>R</sub>) y un subsistema inferencial de modelado del mundo (&Mscr;<sub>I</sub>). Al carecer de un bus directo hacia los procesos celulares basales, la inferencia es coaccionada mediante perturbaciones endócrinas y marcadores somáticos.</p>
-        <br/>
-        <p><strong>El «Yo» como Interfaz:</strong> Ante este abismo epistémico, el sistema consolida memorias unificadas (&lang;X<sub>k</sub>, H<sub>k</sub>, O<sub>k</sub>&rang;) mediante el <em>bucle somatomnémico</em>, generando la ilusión de una agencia centralizada («Yo») como artefacto representacional post-hoc indispensable para garantizar la preservación termodinámica de un cuerpo que la mente no puede inspeccionar de manera transparente.</p>
+        <p><strong>Tesis Central:</strong> La autopresencia fenomenológica emerge de la profunda asimetría causal e informacional entre el sustrato regulador celular (&Mscr;<sub>R</sub>) y el subsistema inferencial (&Mscr;<sub>I</sub>).</p><br/>
+        <p><strong>El «Yo» como Interfaz:</strong> Mediante el bucle somatomnémico, el sistema consolida la ilusión de una agencia centralizada («Yo») como artefacto representacional post-hoc indispensable para garantizar la preservación termodinámica de un cuerpo biológico que la mente no puede inspeccionar de manera transparente.</p>
       </div>
 
-      <div class="card-actions">
+      <div class="card-actions" style="margin-top: 1.5rem;">
         <a href="pdf/ANEXO_TEORICO_FILOSOFICO_CONSCIENCIA_SIMBIOTICA.pdf" class="btn btn-primary" target="_blank">
-          <span class="btn-icon">&#128196;</span> Descargar PDF Completo (Español - 42 págs)
+          <span class="btn-icon">&#128196;</span> Descargar PDF (Español)
         </a>
         <a href="pdf/THEORETICAL_PHILOSOPHICAL_ANNEX_SYMBIOTIC_CONSCIOUSNESS.pdf" class="btn btn-secondary" target="_blank">
-          <span class="btn-icon">&#128196;</span> Edición en Inglés (English - 46 págs)
+          <span class="btn-icon">&#128196;</span> Download PDF (English)
         </a>
         <a href="https://doi.org/10.5281/zenodo.24285451" class="btn btn-zenodo" target="_blank" rel="noopener noreferrer">
-          <span class="btn-icon">&#128279;</span> Ver Registro Oficial en Zenodo
+          <span class="btn-icon">&#128279;</span> Ver en Zenodo (10.5281/zenodo.24285451)
         </a>
       </div>
 
-      <h3 style="margin-top: 2rem; margin-bottom: 0.5rem; font-size: 1.15rem; color: var(--text-dark);">Cita Bibliográfica (BibTeX)</h3>
+      <h3 style="margin-top: 2rem; margin-bottom: 0.5rem; font-size: 1.15rem; color: var(--text-dark);">Cita Bibliográfica / Citation (BibTeX)</h3>
       <div class="citation-box">
 @article{san_nicolas_2026_anexo_filosofico_es,
   author    = {San Nicolás Montero, David},
