@@ -1,0 +1,236 @@
+{
+  "title": "Proyecto Ascendant — Manifiesto Criptográfico SHA-256 de Trazabilidad e Integridad de Datos y Publicación Definitiva",
+  "author": "David San Nicolás Montero",
+  "orcid": "0009-0000-9977-007X",
+  "doi_v3": "10.5281/zenodo.23802198",
+  "concept_doi": "10.5281/zenodo.23616626",
+  "version": "4.0 (Unified Simulation Engine, Clustered Multinomial & Competing Risks Survival Benchmarks, Direct Causal Surgery, and Preparatory Conscious-Layer Architecture)",
+  "generated_at_iso": "2026-11-06T08:47:33.359301",
+  "database_summary": {
+    "database_file": "ascendant_generacional_integro.db",
+    "total_simulation_runs": 9655,
+    "total_agents_final_memories": 38620,
+    "orphan_records": 0,
+    "exact_4_agents_per_run_invariant": true,
+    "cohorts_breakdown": [
+      {
+        "experiment_tag": "BASE",
+        "runs_count": 25,
+        "agents_count": 100,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 9623,
+        "seed_range": "2875852969..2876498820"
+      },
+      {
+        "experiment_tag": "CAUSAL_0_CONTROL",
+        "runs_count": 90,
+        "agents_count": 360,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 49165,
+        "seed_range": "50000..50044"
+      },
+      {
+        "experiment_tag": "CAUSAL_1_SWAP_OXI",
+        "runs_count": 90,
+        "agents_count": 360,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 48629,
+        "seed_range": "50000..50044"
+      },
+      {
+        "experiment_tag": "CAUSAL_2_ABLACION_DONACION",
+        "runs_count": 90,
+        "agents_count": 360,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 49058,
+        "seed_range": "50000..50044"
+      },
+      {
+        "experiment_tag": "CAUSAL_3_ABLACION_IRA",
+        "runs_count": 90,
+        "agents_count": 360,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 48965,
+        "seed_range": "50000..50044"
+      },
+      {
+        "experiment_tag": "CAUSAL_4_ORTOGONAL_7D",
+        "runs_count": 150,
+        "agents_count": 600,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 81626,
+        "seed_range": "50000..50074"
+      },
+      {
+        "experiment_tag": "CAUSAL_5A_OXI_BAJA_DON_ACTIVA",
+        "runs_count": 60,
+        "agents_count": 240,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 32612,
+        "seed_range": "50000..50029"
+      },
+      {
+        "experiment_tag": "CAUSAL_5B_OXI_ALTA_DON_ACTIVA",
+        "runs_count": 60,
+        "agents_count": 240,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 32795,
+        "seed_range": "50000..50029"
+      },
+      {
+        "experiment_tag": "CAUSAL_5C_OXI_BAJA_DON_INACTIVA",
+        "runs_count": 60,
+        "agents_count": 240,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 32588,
+        "seed_range": "50000..50029"
+      },
+      {
+        "experiment_tag": "CAUSAL_5D_OXI_ALTA_DON_INACTIVA",
+        "runs_count": 60,
+        "agents_count": 240,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 32838,
+        "seed_range": "50000..50029"
+      },
+      {
+        "experiment_tag": "CAUSAL_5E_OXI_ALTA_SOLO_ALIMENTAR",
+        "runs_count": 60,
+        "agents_count": 240,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 32805,
+        "seed_range": "50000..50029"
+      },
+      {
+        "experiment_tag": "CAUSAL_6A_DOSE_FEED_05",
+        "runs_count": 60,
+        "agents_count": 240,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 32636,
+        "seed_range": "50000..50029"
+      },
+      {
+        "experiment_tag": "CAUSAL_6B_DOSE_FEED_15",
+        "runs_count": 60,
+        "agents_count": 240,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 32584,
+        "seed_range": "50000..50029"
+      },
+      {
+        "experiment_tag": "CAUSAL_6C_DOSE_FEED_20",
+        "runs_count": 60,
+        "agents_count": 240,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 32900,
+        "seed_range": "50000..50029"
+      },
+      {
+        "experiment_tag": "K3_M100",
+        "runs_count": 1440,
+        "agents_count": 5760,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 557830,
+        "seed_range": "50000..50359"
+      },
+      {
+        "experiment_tag": "K3_M140",
+        "runs_count": 1440,
+        "agents_count": 5760,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 783687,
+        "seed_range": "50000..50359"
+      },
+      {
+        "experiment_tag": "K3_M200",
+        "runs_count": 1440,
+        "agents_count": 5760,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 1121728,
+        "seed_range": "50000..50359"
+      },
+      {
+        "experiment_tag": "K5_M100",
+        "runs_count": 1440,
+        "agents_count": 5760,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 557238,
+        "seed_range": "50000..50359"
+      },
+      {
+        "experiment_tag": "K5_M140",
+        "runs_count": 1440,
+        "agents_count": 5760,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 782635,
+        "seed_range": "50000..50359"
+      },
+      {
+        "experiment_tag": "K5_M200",
+        "runs_count": 1440,
+        "agents_count": 5760,
+        "exact_4x_verified": true,
+        "total_engrams_recorded": 1119211,
+        "seed_range": "50000..50359"
+      }
+    ]
+  },
+  "files_sha256": {
+    "ascendant_generacional_integro.db": {
+      "size_bytes": 845275136,
+      "sha256": "13249851f86648742f8b5ab943c7ac21bd6f96fdcabe5c72ad6e07ecf2780909"
+    },
+    "ejecutar_experimento_generacional.py": {
+      "size_bytes": 178836,
+      "sha256": "aab43e441ebfffdea5e3ef4b36ffdeff7c7d90ccca433f7b756f590464761b89"
+    },
+    "reanalisis_cluster_semilla_y_riesgos_competitivos.json": {
+      "size_bytes": 79308,
+      "sha256": "a30efe764b3a85e5898d4f25c05ef9b18bf01f6259ec94211845d4ebfc684eda"
+    },
+    "analisis_cox_cif_intraarquetipo_y_sensibilidad.json": {
+      "size_bytes": 35470,
+      "sha256": "34e534199c738a3480da80c59eb64ca64172e67beac1206baca2248e633a9408"
+    },
+    "resultados_intervenciones_causales_directas.json": {
+      "size_bytes": 81653,
+      "sha256": "e04b6b95128d3d6c04ea2891cb1c5445aa9b21c21d89cc4d102e0c4009bcb6c3"
+    },
+    "INFORME_REGRESION_MULTINOMIAL_Y_CADENA_CAUSAL_TEMPERAMENTO.md": {
+      "size_bytes": 73002,
+      "sha256": "d30ffaac314a433473b53bcb4a9798584d610c21016f88c27cb35bc925ed0d36"
+    },
+    "scripts_analisis_causal/reanalisis_cluster_semilla_y_riesgos_competitivos.py": {
+      "size_bytes": 17372,
+      "sha256": "2ce162c3edc6518fcb5bcdb7815172a729df2f25d49087bc2627bab646a2f91f"
+    },
+    "scripts_analisis_causal/analisis_supervivencia_cox_cif_y_sensibilidad.py": {
+      "size_bytes": 25593,
+      "sha256": "b2e2b63db812188cfb31f74dd57cb4a13fc65e2d294ad94f5f7fc0bff15fcbdb"
+    },
+    "scripts_analisis_causal/experimento_intervenciones_mecanicistas_ampliado.py": {
+      "size_bytes": 41602,
+      "sha256": "513fc2a215834338efdb81668184c4762a13d9a63ed5b3b59135019df1bb186c"
+    },
+    "scripts_analisis_causal/actualizar_manifiesto_sha256.py": {
+      "size_bytes": 6208,
+      "sha256": "ea0edb73f258edb5048be4f5f30a6a2b0c905b7ff3ac5ec1cdc5d5ca07621ee5"
+    },
+    "compilar_master_paper_v4.py": {
+      "size_bytes": 99990,
+      "sha256": "15cb16c8bd51e89565d60efddb5d44804c3ada5bc147426a576f4d7b5c16932a"
+    },
+    "Master_Scientific_Paper_David_San_Nicolas_v4.pdf": {
+      "size_bytes": 899707,
+      "sha256": "90d85ba599934c56a8dc567a9f34c05472e1f96ccbd515b9991fdce31af824b3"
+    },
+    "Master_Scientific_Paper_David_San_Nicolas_v4.md": {
+      "size_bytes": 59749,
+      "sha256": "d564213120adc7325a10fbc32ddca56fe913ce0081a54fb929cfbc6a7c70ba1c"
+    },
+    "Proyecto_Ascendant_Master_Scientific_Paper_David_San_Nicolas.pdf": {
+      "size_bytes": 899707,
+      "sha256": "90d85ba599934c56a8dc567a9f34c05472e1f96ccbd515b9991fdce31af824b3"
+    }
+  }
+}
